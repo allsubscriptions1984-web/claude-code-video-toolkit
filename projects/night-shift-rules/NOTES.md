@@ -15,9 +15,17 @@ Handoff for the next session. Built with the `youtube-longform` template and ski
 - `scenes.json` / `SCRIPT.md` now hold the full anthology from the plan below: cold open +
   3 linked stories, 98 scenes, 3,546 words, 10 chapters, ~26.3 min (build.py estimate).
   Regenerate both with `python3 make_anthology.py` — edit the story there, not in the JSON.
-- Shot plan per scene in `scenes[].shots`: 109 FLUX stills, 16 LTX clips (only the big scare
-  beats, see KEEP_CLIPS in make_anthology.py), 2 text cards (`CARD:` = title/end card, render
-  text locally, never via an image model). Est. ~$6–8.
+- Shot plan per scene in `scenes[].shots`: 176 FLUX stills, 36 LTX clips, 2 text cards
+  (`CARD:` = title/end card, text rendered locally, never by an image model). Owner chose
+  motion over savings: clips on every cold-open shot, every chapter opener and every scare.
+  Avg 8.8s per visual, max ~16s.
+- **No clip may loop.** build.py boomerangs a clip shorter than its slot; EXTRA in
+  make_anthology.py pads each motion scene with stills so a clip gets <=6.7s. If real VO
+  runs long, re-check slots before render (any clip slot > 6.7s needs another still).
+- **Clips are image-to-video:** generate the FLUX still from the clip prompt first
+  (`images/<clip-name>_src.png`), then `ltx2.py --input` it, so motion matches the art style.
+  If a clip warps faces/objects, use its source still instead (free) — never ship a bad clip.
+- Est. spend: ~212 FLUX images ~$1–4, 36 clips ~$8.30, VO ~$1, music free → ~$11–14.
 - **Script APPROVED by the owner (2026-10-28).** Owner priority: best quality, credits used
   carefully. Credit rules for the build session:
   1. Test first: 2 stills + 1 LTX clip + 3 VO scenes; check style/voice before any batch.

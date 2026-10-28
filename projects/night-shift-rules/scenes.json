@@ -8,11 +8,18 @@
       "id": "001",
       "slug": "rules",
       "text": "Every night shift comes with rules. And every rule was written by someone who broke it first.",
-      "asset": "clips/001_rules.mp4",
+      "asset": [
+        "clips/001a_rules.mp4",
+        "images/001b_rules.png"
+      ],
       "shots": [
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. slow push in along an empty two-lane highway at night through fog, a single flickering sodium streetlight, a green road sign reading nothing, light snow"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a weathered wooden signpost beside a foggy highway at night, a yellowed paper nailed to it, writing blurred"
         }
       ],
       "chapter": "Three Night Shifts"
@@ -21,10 +28,17 @@
       "id": "002",
       "slug": "tease-coins",
       "text": "At a gas station on Route 9, rule seven says: never serve the man who pays in wet coins.",
-      "asset": "images/002_tease-coins.png",
+      "asset": [
+        "images/002a_tease-coins.png",
+        "clips/002b_tease-coins.mp4"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gas station alone on a winter highway at night, canopy lights glowing in fog"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. extreme close-up of old green rusted coins on a glass counter, water slowly spreading from each coin in rings, fluorescent flicker"
         }
       ]
@@ -33,11 +47,18 @@
       "id": "003",
       "slug": "tease-314",
       "text": "At Saint Agnes Hospital, the call light in room three fourteen comes on every night. That patient went home three years ago.",
-      "asset": "images/003_tease-314.png",
+      "asset": [
+        "clips/003a_tease-314.mp4",
+        "images/003b_tease-314.png"
+      ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an empty hospital corridor at night, one red call light glowing above a closed door at the far end, linoleum reflecting it, every other room dark"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a hospital call button on a bed rail glowing red in the dark, an empty pillow beside it"
         }
       ]
     },
@@ -45,11 +66,23 @@
       "id": "004",
       "slug": "tease-room-nine",
       "text": "And at the Pinewood Motor Lodge, the same guest checks into room nine at three thirty three in the morning. He's been checking in since nineteen eighty seven.",
-      "asset": "images/004_tease-room-nine.png",
+      "asset": [
+        "clips/004a_tease-room-nine.mp4",
+        "images/004b_tease-room-nine.png",
+        "images/004c_tease-room-nine.png"
+      ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small roadside motel at night in pouring rain, a buzzing red neon vacancy sign, one door numbered nine slightly open with darkness inside, a wet handprint on the door"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a brass motel bell on a wooden counter beside a wet handprint, an old wall clock behind it"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old guest ledger open on a counter, a column of identical faded signatures, unreadable"
         }
       ]
     },
@@ -71,7 +104,8 @@
       "text": "My name is Sam, and for three weeks last winter I worked the night shift at a gas station on Route 9. I'm only telling this now because the listing is up again. Same pay. Same words. No experience needed.",
       "asset": [
         "clips/006a_listing.mp4",
-        "images/006b_listing.png"
+        "images/006b_listing.png",
+        "images/006c_listing.png"
       ],
       "shots": [
         {
@@ -81,6 +115,10 @@
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a paper help wanted sign taped inside dirty door glass, frost at the edges, blurred canopy lights behind"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a phone screen glowing in a dark room showing a job listing, the text blurred and unreadable"
         }
       ],
       "chapter": "Story 1: The Gas Station Rules"
@@ -110,15 +148,25 @@
       "text": "The owner, Mr. Hale, met me at ten. He had a heavy coat on, and he never took it off. He handed me the keys, said the regulars were quiet, and left. Fast. He didn't check the till, didn't show me the safe, and didn't turn his headlights on until he hit the highway.",
       "asset": [
         "images/008a_hale.png",
-        "images/008b_hale.png"
+        "images/008b_hale.png",
+        "images/008c_hale.png",
+        "clips/008d_hale.mp4"
       ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an older man in a heavy grey coat standing under the gas station canopy at night, hands deep in his pockets, face in shadow, staring at the road"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden receiving a ring of keys from a nervous older man in a heavy grey coat who is already turning to leave, gas station doorway at night"
         },
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dusty old cash register and a closed safe behind the counter, untouched, fluorescent light"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old pickup truck pulling away from the gas station into the dark with its headlights off, red brake lights only"
         }
       ]
@@ -201,11 +249,23 @@
       "id": "014",
       "slug": "no-headlights",
       "text": "The lights over the pumps flickered, all at once, and a black car rolled up to pump four. No headlights. No engine sound. It just arrived, like it had been there all along and I'd only now noticed.",
-      "asset": "clips/014_no-headlights.mp4",
+      "asset": [
+        "clips/014a_no-headlights.mp4",
+        "images/014b_no-headlights.png",
+        "images/014c_no-headlights.png"
+      ],
       "shots": [
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a black sedan with headlights off rolls silently up to pump four under flickering canopy lights, the windshield a void of shadow"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a black car's dark windshield at a gas pump, only shadow inside, canopy light reflecting"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gas pump display counting up on its own, glowing green in the dark, digits unreadable"
         }
       ],
       "chapter": "No Headlights"
@@ -214,11 +274,18 @@
       "id": "015",
       "slug": "dont-look",
       "text": "I didn't look. I don't know why, but I didn't. I stared at the cigarette rack so hard my eyes watered, and I listened to the pump click and hum, click and hum, for almost ten minutes.",
-      "asset": "images/015_dont-look.png",
+      "asset": [
+        "images/015a_dont-look.png",
+        "images/015b_dont-look.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden staring rigidly at a cigarette rack, shoulders tense, while in the window reflection a dark car waits at the pump"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the reflection of a dark car at a pump in the glass of a cigarette rack, a clerk's blurred shoulder in the foreground"
         }
       ]
     },
@@ -226,8 +293,20 @@
       "id": "016",
       "slug": "nozzle",
       "text": "When it stopped, the car was gone. The register showed no sale. But the nozzle was hanging back in its holster, dripping, and what dripped from it wasn't gas. It was thick, and dark, and it was warm.",
-      "asset": "clips/016_nozzle.mp4",
+      "asset": [
+        "images/016a_nozzle.png",
+        "images/016b_nozzle.png",
+        "clips/016c_nozzle.mp4"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an empty pump bay under flickering lights, the black car gone, faint tire tracks on wet concrete"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a cash register screen glowing in the dark showing no sale, unreadable"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a gas pump nozzle in its holster slowly dripping thick dark liquid onto wet concrete, steam rising, sodium light"
@@ -252,12 +331,22 @@
       "text": "I said it was broken. She smiled, and her smile kept going, a little wider than a face should allow. That's alright, she said. I'll wait for the next one. Then she walked out toward the highway, and the snow didn't seem to touch her.",
       "asset": [
         "images/018a_too-wide.png",
-        "images/018b_too-wide.png"
+        "clips/018b_too-wide.mp4",
+        "images/018c_too-wide.png",
+        "images/018d_too-wide.png"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a pale bare foot on a wet tile floor, snow on the doormat behind it"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the pale woman's smile stretched unnaturally wide, eyes hidden in shadow, harsh fluorescent light, unsettling but not gory"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a convenience store glass door swinging shut, a figure in a summer dress outside in the snow, back turned"
         },
         {
           "kind": "image",
@@ -289,13 +378,18 @@
       "slug": "knocks",
       "text": "On the ninth night, at three ten, something inside it knocked. Three slow knocks. Then a pause. Then three more. I turned the radio up and sang along to songs I didn't know, until the sun came up.",
       "asset": [
-        "images/020a_knocks.png",
-        "images/020b_knocks.png"
+        "clips/020a_knocks.mp4",
+        "images/020b_knocks.png",
+        "images/020c_knocks.png"
       ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the lid of a frosted chest freezer at the back of a dark store jolts slightly three times, frost cracking, a single bulb swaying"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old radio on a shelf with its volume knob turned all the way up, store shelves trembling"
         },
         {
           "kind": "image",
@@ -307,11 +401,18 @@
       "id": "021",
       "slug": "static",
       "text": "On the eleventh night, the radio changed by itself. The country station turned to static, and under the static was a voice, reading numbers. I didn't touch it. At five, it switched back, mid-song, like nothing had happened.",
-      "asset": "images/021_static.png",
+      "asset": [
+        "images/021a_static.png",
+        "images/021b_static.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an old radio dial sliding on its own, the amber glow turning sickly green, static lines in the air"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the speaker grille of an old radio glowing sickly green, static lines rippling in the dark air around it"
         }
       ]
     },
@@ -319,8 +420,15 @@
       "id": "022",
       "slug": "my-name",
       "text": "Then, on the fourteenth night, I broke a rule. Just a small one. Someone called my name from the parking lot. Sam. In my mom's voice. And for one second, I forgot, and I looked up.",
-      "asset": "images/022_my-name.png",
+      "asset": [
+        "images/022a_my-name.png",
+        "images/022b_my-name.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the snowy parking lot at night seen through the store window, empty pumps, deep shadow between them"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden looking up sharply toward the store window, the dark parking lot beyond"
@@ -331,11 +439,23 @@
       "id": "023",
       "slug": "canopy-lights",
       "text": "There was no one at the pumps. But every single light on the canopy had turned to face the store. And in the dark between them, something was standing very still, and it was wearing my mom's coat.",
-      "asset": "clips/023_canopy-lights.mp4",
+      "asset": [
+        "images/023a_canopy-lights.png",
+        "clips/023b_canopy-lights.mp4",
+        "images/023c_canopy-lights.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the empty parking lot seen through the store window, snow falling, pumps standing silent"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. gas station canopy lights slowly swivel to face the camera, and in the darkness between two pumps a tall still figure in a woman's winter coat stands motionless"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a figure in a long woman's winter coat standing between two gas pumps in deep shadow, no face visible"
         }
       ]
     },
@@ -374,11 +494,23 @@
       "id": "026",
       "slug": "thursday",
       "text": "He came in on a Thursday, at three fifteen. Tall, long coat, soaked through, though it hadn't rained in a month. Water ran off him and pooled on the floor, and he didn't seem to notice.",
-      "asset": "images/026_thursday.png",
+      "asset": [
+        "images/026a_thursday.png",
+        "clips/026b_thursday.mp4",
+        "images/026c_thursday.png"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a wall clock in a convenience store at a quarter past three, the second hand frozen"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a very tall gaunt man in a long black soaked coat, face lost in shadow steps inside a gas station door, water streaming off him and pooling on the tile floor, dry night outside, fluorescent light buzzing"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a spreading pool of water on a tile floor around the hem of a long soaked black coat"
         }
       ],
       "chapter": "Wet Coins"
@@ -430,8 +562,20 @@
       "id": "030",
       "slug": "smile",
       "text": "For the first time, he looked up at me. He smiled, and his mouth was full of black water. Thank you, he said. I've been waiting so long for someone new.",
-      "asset": "clips/030_smile.mp4",
+      "asset": [
+        "images/030a_smile.png",
+        "images/030b_smile.png",
+        "clips/030c_smile.mp4"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a can of coffee on the counter, a dripping coin beside it, a long wet coat out of focus behind"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a clerk's hands frozen on the counter, a very tall gaunt man in a long black soaked coat, face lost in shadow looming beyond, head still bowed"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a very tall gaunt man in a long black soaked coat, face lost in shadow slowly raises his head and smiles, black water spilling over his lips, eyes hidden, flickering light"
@@ -442,8 +586,15 @@
       "id": "031",
       "slug": "rule-eleven",
       "text": "When he left, I turned the sheet of rules over. There was an eleventh rule on the back that I'd never seen. The ink was still wet. If you served him, you are the night shift now.",
-      "asset": "images/031_rule-eleven.png",
+      "asset": [
+        "images/031a_rule-eleven.png",
+        "images/031b_rule-eleven.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a clerk turning over a yellowed sheet of paper under the counter light, seen from behind"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the back of the yellowed rules sheet, a single line of fresh dark ink still glistening and running, a trembling hand holding the corner"
@@ -466,11 +617,18 @@
       "id": "033",
       "slug": "walk",
       "text": "I didn't answer it. At the first grey light of dawn, I grabbed my coat, pushed through the doors, and walked. Past pump four. Past the sign. Toward the highway. And I walked. And I walked.",
-      "asset": "images/033_walk.png",
+      "asset": [
+        "images/033a_walk.png",
+        "images/033b_walk.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden walking away from the gas station along the snowy highway shoulder in grey dawn light"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a highway sign at dawn half buried in snow beside an endless empty road, the writing unreadable"
         }
       ]
     },
@@ -478,11 +636,18 @@
       "id": "034",
       "slug": "loop",
       "text": "And the gas station was in front of me again. Same canopy. Same lights. Same pump four, dripping.",
-      "asset": "clips/034_loop.mp4",
+      "asset": [
+        "clips/034a_loop.mp4",
+        "images/034b_loop.png"
+      ],
       "shots": [
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden walks up a foggy highway and the same gas station slowly emerges from the fog ahead, canopy lights flickering on"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gas station canopy glowing ahead on a foggy highway, footprints in the snow leading toward it"
         }
       ]
     },
@@ -521,8 +686,20 @@
       "id": "037",
       "slug": "rule-twelve",
       "text": "Rule twelve. If a car rolls up with no headlights, don't look at the driver. It might be me. And I've been waiting so long for someone new.",
-      "asset": "clips/037_rule-twelve.mp4",
+      "asset": [
+        "images/037a_rule-twelve.png",
+        "images/037b_rule-twelve.png",
+        "clips/037c_rule-twelve.mp4"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of the bottom of a handwritten rules sheet, a fresh line of ink, unreadable"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dark windshield with the faint silhouette of a driver in a green vest, face hidden, hands on the wheel"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a black car with no headlights rolls slowly out of the fog toward the camera on an empty highway, a silhouette in a green vest behind the wheel"
@@ -534,13 +711,18 @@
       "slug": "pager",
       "text": "My name is Nadia, and I was a night nurse on the third floor of Saint Agnes Hospital, out on Route 9. I lasted nine weeks. I still have the pager. It still goes off.",
       "asset": [
-        "images/038a_pager.png",
-        "images/038b_pager.png"
+        "clips/038a_pager.mp4",
+        "images/038b_pager.png",
+        "images/038c_pager.png"
       ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small old hospital on a dark highway at night in light rain, one lit window on the third floor"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a nurse's badge and a ring of keys on a locker room bench under a flickering light"
         },
         {
           "kind": "image",
@@ -572,11 +754,18 @@
       "id": "040",
       "slug": "ruth",
       "text": "The charge nurse was named Ruth. She'd worked nights at Saint Agnes for thirty one years. On my first shift, she walked me down the hall, stopped outside room three fourteen, and put her hand flat on the door, like she was checking it for heat.",
-      "asset": "images/040_ruth.png",
+      "asset": [
+        "images/040a_ruth.png",
+        "images/040b_ruth.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an older nurse with grey hair in a bun, seen from behind, pressing her palm flat against a closed hospital door at the end of a dim corridor"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an older nurse's wrinkled palm pressed flat against a door, the room number plate above blurred"
         }
       ]
     },
@@ -584,8 +773,15 @@
       "id": "041",
       "slug": "warning",
       "text": "This room is empty, she said. It has been for three years. The call light will come on tonight. It comes on every night. Don't answer it after three. And whatever you do, don't let anyone sign you out.",
-      "asset": "images/041_warning.png",
+      "asset": [
+        "images/041a_warning.png",
+        "images/041b_warning.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an older nurse's face half in shadow, only her lips and chin lit, speaking quietly"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dark hospital corridor seen from the nurses station, one call light glowing above room three fourteen at the far end"
@@ -608,11 +804,28 @@
       "id": "043",
       "slug": "first-light",
       "text": "At one forty, the board at the nurses station lit up. Room three fourteen. A soft little chime, over and over. I looked at Ruth. She didn't even look up. Before three, she said. Go on. It's just him asking for water.",
-      "asset": "clips/043_first-light.mp4",
+      "asset": [
+        "clips/043a_first-light.mp4",
+        "images/043b_first-light.png",
+        "images/043c_first-light.png",
+        "images/043d_first-light.png"
+      ],
       "shots": [
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a call light board at a hospital nurses station, one small red light blinking on and off steadily in the dark"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a nurses station at night, an older nurse writing under a desk lamp, the long corridor black behind her"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an older nurse's hand still writing, not looking up, a coffee cup steaming"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the dark corridor toward room three fourteen, a red light glowing at the far end"
         }
       ]
     },
@@ -620,11 +833,23 @@
       "id": "044",
       "slug": "cold-room",
       "text": "The room was dark and cold, colder than the hall, and it smelled like a hospital from when I was a kid. Old soap. Old flowers. The bed was made with tight corners, the way nobody makes beds anymore.",
-      "asset": "images/044_cold-room.png",
+      "asset": [
+        "clips/044a_cold-room.mp4",
+        "images/044b_cold-room.png",
+        "images/044c_cold-room.png"
+      ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a night nurse in dark navy scrubs, seen from behind or in silhouette, face hidden standing in the doorway of a cold dark hospital room, an old-fashioned bed made with tight corners, wilted flowers on the sill"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of wilted flowers in a vase on a windowsill, dust on the petals, cold blue light"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the corner of a hospital bed sheet tucked crisp and perfect, cold light"
         }
       ],
       "chapter": "Room 314"
@@ -633,8 +858,15 @@
       "id": "045",
       "slug": "dent",
       "text": "But the pillow had a dent in it. A deep one. Like someone heavy had just lifted his head. And on the tray table, there was a plastic cup, full of water, and it was still sweating.",
-      "asset": "images/045_dent.png",
+      "asset": [
+        "images/045a_dent.png",
+        "images/045b_dent.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a hospital bed seen from the doorway, the dented pillow catching the corridor light, the room otherwise dark"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a hospital pillow with a deep fresh dent, and a plastic cup of water beading with condensation on a tray table"
@@ -645,10 +877,17 @@
       "id": "046",
       "slug": "thank-you",
       "text": "I said hello. Nobody answered. The call light over the bed clicked off by itself, and from the bathroom, very quietly, someone said: thank you, nurse.",
-      "asset": "images/046_thank-you.png",
+      "asset": [
+        "images/046a_thank-you.png",
+        "clips/046b_thank-you.mp4"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a nurse's hand on a light switch in a dark hospital room, the bed empty"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. in a dark hospital room the red call light above the bed clicks off, and the bathroom door stands slightly ajar on pure darkness"
         }
       ]
@@ -676,11 +915,18 @@
       "id": "048",
       "slug": "file",
       "text": "I looked him up. Ellis Ward, seventy eight. Admitted for pneumonia. Discharged three years ago, on the night shift, at three thirty in the morning. The nurse who signed him out used only initials. And there was no record of anyone picking him up.",
-      "asset": "images/048_file.png",
+      "asset": [
+        "images/048a_file.png",
+        "images/048b_file.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a glowing old computer monitor in a dark nurses station showing a blurred patient record, a hand on the mouse"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old paper discharge record in a manila folder, a signature line with two scrawled initials, unreadable"
         }
       ]
     },
@@ -688,8 +934,15 @@
       "id": "049",
       "slug": "blinds",
       "text": "For three weeks, I learned the third floor. The call light in three fourteen came on every night. Before three, it was always something small. Water. A blanket. Once, he asked me to open the blinds, so he could see the road.",
-      "asset": "images/049_blinds.png",
+      "asset": [
+        "images/049a_blinds.png",
+        "images/049b_blinds.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a call light glowing over a hospital door at night, a nurse carrying a folded blanket toward it"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a hospital window with half-open blinds looking down on a dark empty highway, a faint reflection of a thin old man in the glass"
@@ -702,16 +955,26 @@
       "text": "And I learned other things. The elevator stops on the third floor at two in the morning, even when nobody calls it. The doors open. Nobody gets out. Ruth said to always say good evening to it, and I did, every time, and I felt stupid, and I kept doing it.",
       "asset": [
         "images/050a_elevator.png",
-        "images/050b_elevator.png"
+        "clips/050b_elevator.mp4",
+        "images/050c_elevator.png",
+        "images/050d_elevator.png"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a hospital elevator floor indicator glowing above closed doors, the hall empty"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. hospital elevator doors slide open on an empty brightly lit elevator in a dark corridor, the light flickering, nobody inside"
         },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a night nurse in dark navy scrubs, seen from behind or in silhouette, face hidden standing facing the open empty elevator, head slightly bowed"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an empty elevator floor with one faint wet footprint"
         }
       ]
     },
@@ -762,10 +1025,22 @@
       "id": "054",
       "slug": "ive-got-it",
       "text": "At three fifteen, the call light in three fourteen came on. And before I could stop her, she said, I've got it, and she was already walking down the hall.",
-      "asset": "images/054_ive-got-it.png",
+      "asset": [
+        "images/054a_ive-got-it.png",
+        "images/054b_ive-got-it.png",
+        "clips/054c_ive-got-it.mp4"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the call light board at a nurses station blinking red beside a wall clock at a quarter past three"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young nurse in light blue scrubs standing up from a chair, coffee left behind, seen from behind"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young nurse in light blue scrubs walks away down a long dark corridor toward a single red call light, the corridor stretching"
         }
       ]
@@ -774,11 +1049,23 @@
       "id": "055",
       "slug": "light",
       "text": "I ran after her. By the time I got there, the door was closed, and through the little window the room was full of light. Warm, bright, normal light. And the bed wasn't empty anymore.",
-      "asset": "images/055_light.png",
+      "asset": [
+        "images/055a_light.png",
+        "clips/055b_light.mp4",
+        "images/055c_light.png"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a nurse running down a dark hospital corridor, seen from behind, motion blur"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the small wired-glass window in a hospital door, warm golden light glowing through it into the dark corridor"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a nurse's hand gripping a hospital door handle, warm light spilling from under the door"
         }
       ],
       "chapter": "Pending Discharge"
@@ -787,11 +1074,18 @@
       "id": "056",
       "slug": "old-man",
       "text": "There was an old man sitting up in it. Thin, grey, a hospital bracelet loose on his wrist. And standing next to him, holding a clipboard, was the traveling nurse. She was smiling at him, and nodding, and there was a pen in her hand.",
-      "asset": "images/056_old-man.png",
+      "asset": [
+        "images/056a_old-man.png",
+        "images/056b_old-man.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. seen through a door window: a thin grey old man sitting up in a hospital bed in warm light, a young nurse beside him holding a clipboard and pen, both turned away"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a thin wrist with a loose plastic hospital bracelet, a pen in a young nurse's hand nearby"
         }
       ]
     },
@@ -842,8 +1136,20 @@
       "id": "060",
       "slug": "white-eyes",
       "text": "She didn't look at me. But the old man did. He turned his head toward the window, slowly, and he smiled. It was a kind smile. A grandfather's smile. And his eyes were completely white.",
-      "asset": "clips/060_white-eyes.mp4",
+      "asset": [
+        "images/060a_white-eyes.png",
+        "images/060b_white-eyes.png",
+        "clips/060c_white-eyes.mp4"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young nurse in light blue scrubs standing perfectly still beside a hospital bed in warm light, seen through glass"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a frail old hand with a loose hospital bracelet resting on a blanket"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. through a door window an old man in a hospital bed slowly turns his head toward the camera and smiles kindly, his eyes completely white, warm light flickering"
@@ -879,10 +1185,16 @@
       "slug": "lights-out",
       "text": "The lights went out. When they came back on, the room was dark and cold, and the bed was made with tight corners. The traveling nurse was standing in the middle of the room, alone, holding an empty clipboard. Ruth was gone.",
       "asset": [
-        "clips/063a_lights-out.mp4",
-        "images/063b_lights-out.png"
+        "images/063a_lights-out.png",
+        "clips/063b_lights-out.mp4",
+        "images/063c_lights-out.png",
+        "images/063d_lights-out.png"
       ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a hospital corridor ceiling light flickering and dying, darkness spreading"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a hospital room plunges into darkness then flickers back cold and empty, a young nurse standing alone in the middle holding an empty clipboard"
@@ -890,6 +1202,10 @@
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a perfectly made empty hospital bed in cold blue light, no dent in the pillow"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an empty clipboard lying on a hospital floor in cold light"
         }
       ]
     },
@@ -909,11 +1225,23 @@
       "id": "065",
       "slug": "new-census",
       "text": "At midnight the next night, the printer at the station woke up and printed the census. Room three fourteen was still on it. But the name had changed. Marsh, Ruth. Status: pending discharge.",
-      "asset": "images/065_new-census.png",
+      "asset": [
+        "images/065a_new-census.png",
+        "clips/065b_new-census.mp4",
+        "images/065c_new-census.png"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a nurses station at midnight, a wall clock at twelve, a printer's light blinking on"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old printer at a dark nurses station slowly feeds out a census sheet, a nurse's hand reaching for it"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a printed census sheet in a trembling hand, one row circled, unreadable"
         }
       ]
     },
@@ -954,12 +1282,22 @@
       "text": "I never signed it. It's in a drawer with the pager. Every night at three fifteen, the pager goes off. Three numbers on the screen. Three one four. And some nights, if I'm awake, I can hear a voice from the drawer, very quietly. Thank you, nurse.",
       "asset": [
         "images/068a_drawer.png",
-        "images/068b_drawer.png"
+        "clips/068b_drawer.mp4",
+        "images/068c_drawer.png",
+        "images/068d_drawer.png"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dark bedroom in a small apartment, a digital clock glowing in the night"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a kitchen drawer in a dark apartment glows faintly green from inside as an old pager buzzes"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an old pager's tiny green screen glowing inside a drawer, digits blurred"
         },
         {
           "kind": "image",
@@ -973,16 +1311,26 @@
       "text": "My name is Jonah, and I worked the night desk at the Pinewood Motor Lodge, the last motel on Route 9 before the road goes into the pines. Twelve rooms. A sign that only says vacancy. And one guest who checks in every night at three thirty three.",
       "asset": [
         "images/069a_pinewood.png",
-        "images/069b_pinewood.png"
+        "clips/069b_pinewood.mp4",
+        "images/069c_pinewood.png",
+        "images/069d_pinewood.png"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dark two-lane highway entering a dense pine forest at night, a red glow behind the trees"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small twelve-room roadside motel at the edge of a pine forest at night, a buzzing red neon vacancy sign flickering, empty lot"
         },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young motel night clerk in a faded flannel shirt, seen from behind or in silhouette, face hidden behind a wood-panelled motel front desk with a brass bell and key hooks"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dim wood-panelled motel lobby, an old wall clock and a small TV showing static"
         }
       ],
       "chapter": "Story 3: The Motel Night Desk"
@@ -991,11 +1339,18 @@
       "id": "070",
       "slug": "odell",
       "text": "I needed somewhere to live more than I needed a job. The owner, Mrs. Odell, offered me both. Room one, free, plus cash every Friday. All I had to do was sit at the desk from eleven to seven and hand out keys.",
-      "asset": "images/070_odell.png",
+      "asset": [
+        "images/070a_odell.png",
+        "images/070b_odell.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an elderly woman with a cardigan and reading glasses on a chain, face in shadow, handing over a motel key with a plastic number tag"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a modest motel room numbered one with its door open, a narrow bed and a single warm lamp"
         }
       ]
     },
@@ -1015,11 +1370,18 @@
       "id": "072",
       "slug": "who-is-wade",
       "text": "Who's Mister Wade, I asked. And she said: he'll check in tonight. Three thirty three. Give him the key, take his cash, don't make conversation. And don't wipe the counter until the sun is up.",
-      "asset": "images/072_who-is-wade.png",
+      "asset": [
+        "images/072a_who-is-wade.png",
+        "images/072b_who-is-wade.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the elderly owner's hand resting flat on the worn motel counter, a closed guest ledger beside it"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of an elderly woman's eyes in shadow behind reading glasses, looking toward the dark door"
         }
       ]
     },
@@ -1028,13 +1390,23 @@
       "slug": "three-thirty-three",
       "text": "At three thirty two, every light in the parking lot went out. At three thirty three, the bell over the door rang. There was nobody in the doorway. Then I heard footsteps crossing the lobby. Wet ones. And a man was standing at the desk like he'd always been there.",
       "asset": [
-        "clips/073a_three-thirty-three.mp4",
-        "images/073b_three-thirty-three.png"
+        "images/073a_three-thirty-three.png",
+        "clips/073b_three-thirty-three.mp4",
+        "images/073c_three-thirty-three.png",
+        "images/073d_three-thirty-three.png"
       ],
       "shots": [
         {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel wall clock at three thirty two, a clerk's silhouette behind the desk"
+        },
+        {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. motel parking lot lights go dark one by one, then the bell above the lobby door swings and rings with nobody in the doorway"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. wet footprints appearing one by one across a motel lobby carpet with no one making them"
         },
         {
           "kind": "image",
@@ -1046,8 +1418,15 @@
       "id": "074",
       "slug": "river",
       "text": "Long dark coat. Soaked. Hair plastered flat. He smelled like a river. He put a hand on the counter, flat, and slid a few folded bills toward me. The bills were wet. Everything about him was wet.",
-      "asset": "images/074_river.png",
+      "asset": [
+        "images/074a_river.png",
+        "images/074b_river.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gaunt man in a soaked coat seen from the side at the motel desk, water dripping from his sleeve onto the floor"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a pale wet hand sliding soaked folded dollar bills across a wooden counter, water beading"
@@ -1079,12 +1458,22 @@
       "text": "The next morning, I checked room nine. The bed was made. The towels were folded. The key was back on its hook behind the desk, though nobody ever returned it. But the bathtub was full to the brim. Cold, brown water. And the drain was bone dry.",
       "asset": [
         "images/076a_bathtub.png",
-        "clips/076b_bathtub.mp4"
+        "images/076b_bathtub.png",
+        "images/076c_bathtub.png",
+        "clips/076d_bathtub.mp4"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel door numbered nine pushed open by a clerk's hand in grey morning light"
+        },
+        {
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a neat old motel room in grey morning light, bed made, towels folded"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a key with a faded red tag hanging back on its hook behind the empty desk, a drop of water falling from it"
         },
         {
           "kind": "clip",
@@ -1130,12 +1519,22 @@
       "text": "I followed it back to the very first entry. October twelfth, nineteen eighty seven. The week Route 9 flooded. The river came over the road and into the ground floor of the Pinewood, and one guest never made it out. Room nine.",
       "asset": [
         "images/079a_flood.png",
-        "images/079b_flood.png"
+        "clips/079b_flood.mp4",
+        "images/079c_flood.png",
+        "images/079d_flood.png"
       ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of the first page of an old guest ledger, a yellowed date line and one faded signature, unreadable"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. archival-looking night scene of a river flooding over a two-lane road into a motel lot, water rising against doors, rain"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a flooded motel lot at dawn after a storm, rescue lights in the distance, debris in brown water"
         },
         {
           "kind": "image",
@@ -1147,11 +1546,18 @@
       "id": "080",
       "slug": "easier",
       "text": "So I knew what he was. And honestly, it got easier. He never hurt anyone. He paid. He left. I left the counter wet. It was the best job I ever had, for almost two months.",
-      "asset": "images/080_easier.png",
+      "asset": [
+        "images/080a_easier.png",
+        "images/080b_easier.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young motel night clerk in a faded flannel shirt, seen from behind or in silhouette, face hidden reading a paperback at the desk at night, relaxed, a wet handprint glistening beside the book"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the motel at dawn seen from the lot, a clerk at the desk through the lit window, peaceful"
         }
       ]
     },
@@ -1159,11 +1565,23 @@
       "id": "081",
       "slug": "storm",
       "text": "Then came the storm. Real rain, the kind that turns Route 9 back into a river. By midnight, every room was full. Truckers. A couple on their honeymoon. An old man with a dog. Every room except nine.",
-      "asset": "images/081_storm.png",
+      "asset": [
+        "clips/081a_storm.mp4",
+        "images/081b_storm.png",
+        "images/081c_storm.png"
+      ],
       "shots": [
         {
-          "kind": "image",
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. torrential rain hammering a motel parking lot full of trucks and cars at night, the vacancy sign flickering, water streaming across the asphalt"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel lobby crowded at night with tired truckers and travelers dripping rain, the clerk handing out keys"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a wall of motel key hooks all empty except one key on a faded red tag"
         }
       ]
     },
@@ -1171,8 +1589,15 @@
       "id": "082",
       "slug": "family",
       "text": "At one in the morning, a car slid into the lot. A family. A mom, a dad, two little kids asleep in the back. The road ahead was closed. The road behind them was closed. They had nowhere to go.",
-      "asset": "images/082_family.png",
+      "asset": [
+        "images/082a_family.png",
+        "images/082b_family.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a car sliding into a flooded motel parking lot at night, headlights smeared by rain"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a station wagon with fogged windows in the flooded motel lot, two small silhouettes asleep in the back seat, parents' silhouettes in front"
@@ -1195,10 +1620,27 @@
       "id": "084",
       "slug": "empty-hook",
       "text": "At three thirty two, the lights in the lot went out. At three thirty three, the bell rang. Wet footsteps across the lobby. And Mister Wade put his hand flat on the counter and looked at the empty hook where his key should have been.",
-      "asset": "images/084_empty-hook.png",
+      "asset": [
+        "images/084a_empty-hook.png",
+        "images/084b_empty-hook.png",
+        "images/084c_empty-hook.png",
+        "clips/084d_empty-hook.mp4"
+      ],
       "shots": [
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel parking lot going dark in heavy rain, the vacancy sign the only light"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the brass bell over a motel door swinging, the doorway empty and black"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a pale wet hand pressed flat on a counter beside an empty key hook"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gaunt man in a long dark soaked coat, hair plastered flat, face in shadow at the motel desk staring past the clerk at one empty key hook, water pooling at his feet"
         }
       ],
@@ -1208,11 +1650,23 @@
       "id": "085",
       "slug": "ill-wait",
       "text": "He didn't get angry. He just looked at me. Then he said, in a voice like water moving through a pipe, then I'll wait. And he stood there. Dripping. Not moving. And the water around his feet didn't stop spreading.",
-      "asset": "clips/085_ill-wait.mp4",
+      "asset": [
+        "images/085a_ill-wait.png",
+        "clips/085b_ill-wait.mp4",
+        "images/085c_ill-wait.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a soaked coat collar and a shadowed jaw, water running off the chin"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a dark puddle spreads slowly and endlessly across a motel lobby carpet from the feet of a motionless man in a soaked coat"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a clerk behind a motel desk staring down at dark water reaching the base of the counter"
         }
       ]
     },
@@ -1220,11 +1674,18 @@
       "id": "086",
       "slug": "rising",
       "text": "It spread across the lobby. Under the door. Out into the lot. The rain outside got louder, and louder, until I couldn't hear anything else. The water was over my shoes. Then my ankles. And it was coming from him.",
-      "asset": "images/086_rising.png",
+      "asset": [
+        "images/086a_rising.png",
+        "images/086b_rising.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel lobby filling with dark water up to the ankles, a desk lamp reflected in it, rain streaming down the windows"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a clerk's shoes in dark water up to the ankles behind the motel desk"
         }
       ]
     },
@@ -1234,7 +1695,8 @@
       "text": "The phone rang. Room nine. It was the dad. His voice was shaking. He said, there's someone in our bathtub. Under the water. With his eyes open. And my kids can hear him talking.",
       "asset": [
         "images/087a_bathtub-call.png",
-        "images/087b_bathtub-call.png"
+        "images/087b_bathtub-call.png",
+        "clips/087c_bathtub-call.mp4"
       ],
       "shots": [
         {
@@ -1243,6 +1705,10 @@
         },
         {
           "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a frightened father's silhouette in a motel bathroom doorway holding a phone, two small children behind him"
+        },
+        {
+          "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel bathtub full of dark water, the faint pale shape of a face just beneath the surface, eyes open"
         }
       ]
@@ -1251,11 +1717,18 @@
       "id": "088",
       "slug": "give-yours",
       "text": "I called Mrs. Odell. She answered on the first ring, like she'd been sitting by the phone for thirty years waiting for this call. I told her. She was quiet for a long time. Then she said: if room nine is ever taken, you give him yours.",
-      "asset": "images/088_give-yours.png",
+      "asset": [
+        "images/088a_give-yours.png",
+        "images/088b_give-yours.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an elderly woman sitting awake in a dark armchair beside an old phone, her hand already on the receiver"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young motel night clerk in a faded flannel shirt, seen from behind or in silhouette, face hidden gripping a phone receiver at the flooded desk, head bowed, listening"
         }
       ]
     },
@@ -1263,8 +1736,15 @@
       "id": "089",
       "slug": "room-one",
       "text": "So I did. I took the key to room one, my room, everything I had in the world, and I set it down on the counter, inside the wet handprint. He picked it up. He nodded, once. And the water stopped.",
-      "asset": "images/089_room-one.png",
+      "asset": [
+        "images/089a_room-one.png",
+        "images/089b_room-one.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a key with a tag numbered one being lifted off its hook"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a motel key with a tag numbered one being placed inside a wet handprint on the counter, a pale hand reaching for it"
@@ -1287,8 +1767,15 @@
       "id": "091",
       "slug": "checkout",
       "text": "At seven, the family checked out early. The kids were fine. They didn't remember anything. The dad couldn't look at me. And for the first time in two months, room nine's tub was empty. The drain was wet.",
-      "asset": "images/091_checkout.png",
+      "asset": [
+        "images/091a_checkout.png",
+        "images/091b_checkout.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. two small children in pajamas holding their parents' hands across the motel lot in grey morning light, faces turned away"
+        },
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a station wagon pulling out of the motel lot in grey morning light, a child's face in the rear window"
@@ -1330,11 +1817,23 @@
       "id": "094",
       "slug": "headlights",
       "text": "Then, last Tuesday, at three thirty two, the lights in the lot went out. And a black car rolled in. No headlights. No engine. It just arrived. I didn't look at the driver. Something told me not to.",
-      "asset": "clips/094_headlights.mp4",
+      "asset": [
+        "images/094a_headlights.png",
+        "clips/094b_headlights.mp4",
+        "images/094c_headlights.png"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a motel wall clock at three thirty two, the lot lights outside going dark"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a black sedan with no headlights glides silently into a dark motel parking lot under the red vacancy sign"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a clerk behind the desk with eyes fixed down on the ledger, refusing to look at the window"
         }
       ]
     },
@@ -1361,11 +1860,18 @@
       "id": "096",
       "slug": "sam",
       "text": "He signed the ledger. Then he slid it back to me, and he said, the night shift at the gas station gets lonely. Do you have a room for one night? I looked down at the name. Sam.",
-      "asset": "images/096_sam.png",
+      "asset": [
+        "images/096a_sam.png",
+        "images/096b_sam.png"
+      ],
       "shots": [
         {
           "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a guest ledger turned toward the camera, a fresh signature on the newest line, the writing unreadable, a drop of water beside it"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. close-up of a dark green work vest and a snowy shoulder at the motel counter, the face out of frame"
         }
       ]
     },
@@ -1373,8 +1879,25 @@
       "id": "097",
       "slug": "route-nine",
       "text": "I gave him room nine. And if you ever drive Route 9 at night, and you pass a gas station with a help wanted sign, or a hospital with one light on, on the third floor, or a motel with a sign that only says vacancy...",
-      "asset": "clips/097_route-nine.mp4",
+      "asset": [
+        "images/097a_route-nine.png",
+        "images/097b_route-nine.png",
+        "images/097c_route-nine.png",
+        "clips/097d_route-nine.mp4"
+      ],
       "shots": [
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a gas station with a help wanted sign glowing alone beside a dark highway"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small hospital at night with a single lit window on the third floor"
+        },
+        {
+          "kind": "image",
+          "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a red neon motel sign buzzing in fog beside the highway"
+        },
         {
           "kind": "clip",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. slow drive at night down a foggy two-lane highway past a lit gas station, then a hospital with one lit window, then a red neon motel sign"

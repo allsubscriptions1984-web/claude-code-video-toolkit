@@ -28,9 +28,9 @@ S = [
     (None, "tease-coins", "At a gas station on Route 9, rule seven says: never serve the man who pays in wet coins.",
      ["CLIP: extreme close-up of old green rusted coins on a glass counter, water slowly spreading from each coin in rings, fluorescent flicker"]),
     (None, "tease-314", "At Saint Agnes Hospital, the call light in room three fourteen comes on every night. That patient went home three years ago.",
-     ["an empty hospital corridor at night, one red call light glowing above a closed door at the far end, linoleum reflecting it, every other room dark"]),
+     ["CLIP: an empty hospital corridor at night, one red call light glowing above a closed door at the far end, linoleum reflecting it, every other room dark"]),
     (None, "tease-room-nine", "And at the Pinewood Motor Lodge, the same guest checks into room nine at three thirty three in the morning. He's been checking in since nineteen eighty seven.",
-     ["a small roadside motel at night in pouring rain, a buzzing red neon vacancy sign, one door numbered nine slightly open with darkness inside, a wet handprint on the door"]),
+     ["CLIP: a small roadside motel at night in pouring rain, a buzzing red neon vacancy sign, one door numbered nine slightly open with darkness inside, a wet handprint on the door"]),
     (None, "one-road", "Three night shifts. One road. Stay for the last one, because the third story explains the first.",
      ["CARD: title — 3 NIGHT SHIFT HORROR STORIES over the fog highway clip, neon-flicker reveal"]),
 
@@ -43,7 +43,7 @@ S = [
       "a gas station alone at the edge of a pine forest at night, nothing else for miles, wide establishing shot"]),
     (None, "hale", "The owner, Mr. Hale, met me at ten. He had a heavy coat on, and he never took it off. He handed me the keys, said the regulars were quiet, and left. Fast. He didn't check the till, didn't show me the safe, and didn't turn his headlights on until he hit the highway.",
      [f"{SAM} receiving a ring of keys from a nervous older man in a heavy grey coat who is already turning to leave, gas station doorway at night",
-      "an old pickup truck pulling away from the gas station into the dark with its headlights off, red brake lights only"]),
+      "CLIP: an old pickup truck pulling away from the gas station into the dark with its headlights off, red brake lights only"]),
     (None, "sheet", "Under the register, taped to the wood, was a sheet of yellow paper. Ten rules. Three different handwritings, like three different people had added to it over the years.",
      ["close-up under a cash register counter: a yellowed sheet of paper taped to old wood, rows of scrawled lines, harsh fluorescent glow, a hand reaching toward it"]),
     (None, "rules-1-3", "Rule one: if a car pulls up with no headlights, do not look at the driver. Rule two: if anyone asks for the bathroom key, the bathroom is broken. Rule three: never open the freezer at the back after three in the morning. Not even if something inside is knocking.",
@@ -66,7 +66,7 @@ S = [
     (None, "bare-feet", "The next night, a woman in a thin summer dress came in and asked for the bathroom key. It was January. Her feet were bare, and they left no prints on the wet floor.",
      ["a pale barefoot woman in a thin faded summer dress standing in a convenience store, snow on the window behind her, wet floor with no footprints, her face in shadow"]),
     (None, "too-wide", "I said it was broken. She smiled, and her smile kept going, a little wider than a face should allow. That's alright, she said. I'll wait for the next one. Then she walked out toward the highway, and the snow didn't seem to touch her.",
-     ["the pale woman's smile stretched unnaturally wide, eyes hidden in shadow, harsh fluorescent light, unsettling but not gory",
+     ["CLIP: the pale woman's smile stretched unnaturally wide, eyes hidden in shadow, harsh fluorescent light, unsettling but not gory",
       "a woman in a summer dress walking away down a dark snowy highway, snowflakes passing through her"]),
     (None, "like-a-prayer", "By the end of the first week, I'd stopped laughing at the rules. I read them at the start of every shift, like a prayer. And I started noticing things. The freezer at the back was never plugged in. It was always cold anyway.",
      [f"{SAM} reading the rules sheet under a single flickering tube light, aisles fading into darkness",
@@ -130,7 +130,7 @@ S = [
      ["CLIP: a call light board at a hospital nurses station, one small red light blinking on and off steadily in the dark"]),
 
     ("Room 314", "cold-room", "The room was dark and cold, colder than the hall, and it smelled like a hospital from when I was a kid. Old soap. Old flowers. The bed was made with tight corners, the way nobody makes beds anymore.",
-     [f"{NADIA} standing in the doorway of a cold dark hospital room, an old-fashioned bed made with tight corners, wilted flowers on the sill"]),
+     [f"CLIP: {NADIA} standing in the doorway of a cold dark hospital room, an old-fashioned bed made with tight corners, wilted flowers on the sill"]),
     (None, "dent", "But the pillow had a dent in it. A deep one. Like someone heavy had just lifted his head. And on the tray table, there was a plastic cup, full of water, and it was still sweating.",
      ["close-up of a hospital pillow with a deep fresh dent, and a plastic cup of water beading with condensation on a tray table"]),
     (None, "thank-you", "I said hello. Nobody answered. The call light over the bed clicked off by itself, and from the bathroom, very quietly, someone said: thank you, nurse.",
@@ -156,7 +156,7 @@ S = [
      ["CLIP: a young nurse in light blue scrubs walks away down a long dark corridor toward a single red call light, the corridor stretching"]),
 
     ("Pending Discharge", "light", "I ran after her. By the time I got there, the door was closed, and through the little window the room was full of light. Warm, bright, normal light. And the bed wasn't empty anymore.",
-     ["the small wired-glass window in a hospital door, warm golden light glowing through it into the dark corridor"]),
+     ["CLIP: the small wired-glass window in a hospital door, warm golden light glowing through it into the dark corridor"]),
     (None, "old-man", "There was an old man sitting up in it. Thin, grey, a hospital bracelet loose on his wrist. And standing next to him, holding a clipboard, was the traveling nurse. She was smiling at him, and nodding, and there was a pen in her hand.",
      ["seen through a door window: a thin grey old man sitting up in a hospital bed in warm light, a young nurse beside him holding a clipboard and pen, both turned away"]),
     (None, "her-name", "Except it wasn't her clipboard. It was his. He was holding it out to her. And the papers on it weren't his discharge papers. The name at the top was hers.",
@@ -228,14 +228,14 @@ S = [
      ["close-up of a hand lifting the key with the faded red tag off its hook, other hand hesitating"]),
 
     ("Three Thirty Three", "empty-hook", "At three thirty two, the lights in the lot went out. At three thirty three, the bell rang. Wet footsteps across the lobby. And Mister Wade put his hand flat on the counter and looked at the empty hook where his key should have been.",
-     [f"{WADE} at the motel desk staring past the clerk at one empty key hook, water pooling at his feet"]),
+     [f"CLIP: {WADE} at the motel desk staring past the clerk at one empty key hook, water pooling at his feet"]),
     (None, "ill-wait", "He didn't get angry. He just looked at me. Then he said, in a voice like water moving through a pipe, then I'll wait. And he stood there. Dripping. Not moving. And the water around his feet didn't stop spreading.",
      ["CLIP: a dark puddle spreads slowly and endlessly across a motel lobby carpet from the feet of a motionless man in a soaked coat"]),
     (None, "rising", "It spread across the lobby. Under the door. Out into the lot. The rain outside got louder, and louder, until I couldn't hear anything else. The water was over my shoes. Then my ankles. And it was coming from him.",
      ["a motel lobby filling with dark water up to the ankles, a desk lamp reflected in it, rain streaming down the windows"]),
     (None, "bathtub-call", "The phone rang. Room nine. It was the dad. His voice was shaking. He said, there's someone in our bathtub. Under the water. With his eyes open. And my kids can hear him talking.",
      ["an old motel desk phone ringing, water around its base, a room nine light lit on the switchboard",
-      "a motel bathtub full of dark water, the faint pale shape of a face just beneath the surface, eyes open"]),
+      "CLIP: a motel bathtub full of dark water, the faint pale shape of a face just beneath the surface, eyes open"]),
     (None, "give-yours", "I called Mrs. Odell. She answered on the first ring, like she'd been sitting by the phone for thirty years waiting for this call. I told her. She was quiet for a long time. Then she said: if room nine is ever taken, you give him yours.",
      ["an elderly woman sitting awake in a dark armchair beside an old phone, her hand already on the receiver"]),
     (None, "room-one", "So I did. I took the key to room one, my room, everything I had in the world, and I set it down on the counter, inside the wet handprint. He picked it up. He nodded, once. And the water stopped.",
@@ -262,12 +262,115 @@ S = [
      ["CARD: end screen — 3 NIGHT SHIFT HORROR STORIES over a dark highway with headlights receding, space for YouTube end-screen elements"]),
 ]
 
+# Extra stills for motion scenes: an LTX clip runs ~6.7s and build.py boomerangs a clip
+# that is shorter than its slot (a car rolling backwards gives the AI away). Each list is
+# the scene's full shot order; "@" stands for the scene's own shots in S.
+EXTRA = {
+    "rules": ["@", "a weathered wooden signpost beside a foggy highway at night, a yellowed paper nailed to it, writing blurred"],
+    "tease-coins": ["a gas station alone on a winter highway at night, canopy lights glowing in fog", "@"],
+    "tease-314": ["@", "close-up of a hospital call button on a bed rail glowing red in the dark, an empty pillow beside it"],
+    "tease-room-nine": ["@", "a brass motel bell on a wooden counter beside a wet handprint, an old wall clock behind it",
+                        "an old guest ledger open on a counter, a column of identical faded signatures, unreadable"],
+    "listing": ["@", "a phone screen glowing in a dark room showing a job listing, the text blurred and unreadable"],
+    "hale": ["an older man in a heavy grey coat standing under the gas station canopy at night, hands deep in his pockets, face in shadow, staring at the road",
+             "@0", "a dusty old cash register and a closed safe behind the counter, untouched, fluorescent light", "@1"],
+    "no-headlights": ["@", "close-up of a black car's dark windshield at a gas pump, only shadow inside, canopy light reflecting",
+                      "a gas pump display counting up on its own, glowing green in the dark, digits unreadable"],
+    "nozzle": ["an empty pump bay under flickering lights, the black car gone, faint tire tracks on wet concrete",
+               "close-up of a cash register screen glowing in the dark showing no sale, unreadable", "@"],
+    "too-wide": ["close-up of a pale bare foot on a wet tile floor, snow on the doormat behind it", "@0",
+                 "a convenience store glass door swinging shut, a figure in a summer dress outside in the snow, back turned", "@1"],
+    "knocks": ["@0", "an old radio on a shelf with its volume knob turned all the way up, store shelves trembling", "@1"],
+    "canopy-lights": ["the empty parking lot seen through the store window, snow falling, pumps standing silent", "@",
+                      "a figure in a long woman's winter coat standing between two gas pumps in deep shadow, no face visible"],
+    "thursday": ["a wall clock in a convenience store at a quarter past three, the second hand frozen", "@",
+                 "a spreading pool of water on a tile floor around the hem of a long soaked black coat"],
+    "smile": ["close-up of a can of coffee on the counter, a dripping coin beside it, a long wet coat out of focus behind",
+              f"a clerk's hands frozen on the counter, {WET_MAN} looming beyond, head still bowed", "@"],
+    "loop": ["@", "a gas station canopy glowing ahead on a foggy highway, footprints in the snow leading toward it"],
+    "rule-twelve": ["close-up of the bottom of a handwritten rules sheet, a fresh line of ink, unreadable",
+                    "a dark windshield with the faint silhouette of a driver in a green vest, face hidden, hands on the wheel", "@"],
+    "pager": ["@0", "a nurse's badge and a ring of keys on a locker room bench under a flickering light", "@1"],
+    "first-light": ["@", "a nurses station at night, an older nurse writing under a desk lamp, the long corridor black behind her",
+                    "close-up of an older nurse's hand still writing, not looking up, a coffee cup steaming",
+                    "the dark corridor toward room three fourteen, a red light glowing at the far end"],
+    "cold-room": ["@", "close-up of wilted flowers in a vase on a windowsill, dust on the petals, cold blue light",
+                  "the corner of a hospital bed sheet tucked crisp and perfect, cold light"],
+    "thank-you": ["a nurse's hand on a light switch in a dark hospital room, the bed empty", "@"],
+    "elevator": ["a hospital elevator floor indicator glowing above closed doors, the hall empty", "@0", "@1",
+                 "close-up of an empty elevator floor with one faint wet footprint"],
+    "ive-got-it": ["the call light board at a nurses station blinking red beside a wall clock at a quarter past three",
+                   "a young nurse in light blue scrubs standing up from a chair, coffee left behind, seen from behind", "@"],
+    "light": ["a nurse running down a dark hospital corridor, seen from behind, motion blur", "@",
+              "close-up of a nurse's hand gripping a hospital door handle, warm light spilling from under the door"],
+    "white-eyes": ["a young nurse in light blue scrubs standing perfectly still beside a hospital bed in warm light, seen through glass",
+                   "a frail old hand with a loose hospital bracelet resting on a blanket", "@"],
+    "lights-out": ["a hospital corridor ceiling light flickering and dying, darkness spreading", "@0", "@1",
+                   "an empty clipboard lying on a hospital floor in cold light"],
+    "new-census": ["a nurses station at midnight, a wall clock at twelve, a printer's light blinking on", "@",
+                   "close-up of a printed census sheet in a trembling hand, one row circled, unreadable"],
+    "drawer": ["a dark bedroom in a small apartment, a digital clock glowing in the night", "@0",
+               "close-up of an old pager's tiny green screen glowing inside a drawer, digits blurred", "@1"],
+    "pinewood": ["a dark two-lane highway entering a dense pine forest at night, a red glow behind the trees", "@0", "@1",
+                 "a dim wood-panelled motel lobby, an old wall clock and a small TV showing static"],
+    "three-thirty-three": ["a motel wall clock at three thirty two, a clerk's silhouette behind the desk", "@0",
+                           "wet footprints appearing one by one across a motel lobby carpet with no one making them", "@1"],
+    "bathtub": ["a motel door numbered nine pushed open by a clerk's hand in grey morning light", "@0",
+                "a key with a faded red tag hanging back on its hook behind the empty desk, a drop of water falling from it", "@1"],
+    "flood": ["close-up of the first page of an old guest ledger, a yellowed date line and one faded signature, unreadable", "@0",
+              "a flooded motel lot at dawn after a storm, rescue lights in the distance, debris in brown water", "@1"],
+    "storm": ["@", "a motel lobby crowded at night with tired truckers and travelers dripping rain, the clerk handing out keys",
+              "a wall of motel key hooks all empty except one key on a faded red tag"],
+    "empty-hook": ["a motel parking lot going dark in heavy rain, the vacancy sign the only light",
+                   "the brass bell over a motel door swinging, the doorway empty and black",
+                   "close-up of a pale wet hand pressed flat on a counter beside an empty key hook", "@"],
+    "ill-wait": ["close-up of a soaked coat collar and a shadowed jaw, water running off the chin", "@",
+                 "a clerk behind a motel desk staring down at dark water reaching the base of the counter"],
+    "bathtub-call": ["@0", "a frightened father's silhouette in a motel bathroom doorway holding a phone, two small children behind him", "@1"],
+    "headlights": ["a motel wall clock at three thirty two, the lot lights outside going dark", "@",
+                   "a clerk behind the desk with eyes fixed down on the ledger, refusing to look at the window"],
+    "route-nine": ["a gas station with a help wanted sign glowing alone beside a dark highway",
+                   "a small hospital at night with a single lit window on the third floor",
+                   "a red neon motel sign buzzing in fog beside the highway", "@"],
+    # second shot for scenes that would otherwise hold one still for 16s+
+    "dont-look": ["@", "the reflection of a dark car at a pump in the glass of a cigarette rack, a clerk's blurred shoulder in the foreground"],
+    "static": ["@", "the speaker grille of an old radio glowing sickly green, static lines rippling in the dark air around it"],
+    "my-name": ["the snowy parking lot at night seen through the store window, empty pumps, deep shadow between them", "@"],
+    "rule-eleven": ["a clerk turning over a yellowed sheet of paper under the counter light, seen from behind", "@"],
+    "walk": ["@", "a highway sign at dawn half buried in snow beside an endless empty road, the writing unreadable"],
+    "ruth": ["@", "close-up of an older nurse's wrinkled palm pressed flat against a door, the room number plate above blurred"],
+    "warning": ["close-up of an older nurse's face half in shadow, only her lips and chin lit, speaking quietly", "@"],
+    "dent": ["a hospital bed seen from the doorway, the dented pillow catching the corridor light, the room otherwise dark", "@"],
+    "file": ["@", "an old paper discharge record in a manila folder, a signature line with two scrawled initials, unreadable"],
+    "blinds": ["a call light glowing over a hospital door at night, a nurse carrying a folded blanket toward it", "@"],
+    "old-man": ["@", "close-up of a thin wrist with a loose plastic hospital bracelet, a pen in a young nurse's hand nearby"],
+    "odell": ["@", "a modest motel room numbered one with its door open, a narrow bed and a single warm lamp"],
+    "who-is-wade": ["@", "close-up of an elderly woman's eyes in shadow behind reading glasses, looking toward the dark door"],
+    "river": ["a gaunt man in a soaked coat seen from the side at the motel desk, water dripping from his sleeve onto the floor", "@"],
+    "easier": ["@", "the motel at dawn seen from the lot, a clerk at the desk through the lit window, peaceful"],
+    "family": ["a car sliding into a flooded motel parking lot at night, headlights smeared by rain", "@"],
+    "rising": ["@", "close-up of a clerk's shoes in dark water up to the ankles behind the motel desk"],
+    "give-yours": ["@", f"{JONAH} gripping a phone receiver at the flooded desk, head bowed, listening"],
+    "room-one": ["close-up of a key with a tag numbered one being lifted off its hook", "@"],
+    "checkout": ["two small children in pajamas holding their parents' hands across the motel lot in grey morning light, faces turned away", "@"],
+    "sam": ["@", "close-up of a dark green work vest and a snowy shoulder at the motel counter, the face out of frame"],
+}
 
-# Motion clips cost the most (~$0.23 each), so only the biggest scare beats move;
-# every other CLIP shot is rendered as a still (Ken Burns) instead.
-KEEP_CLIPS = {"rules", "listing", "no-headlights", "nozzle", "canopy-lights", "smile", "loop",
-              "rule-twelve", "first-light", "white-eyes", "lights-out", "three-thirty-three",
-              "bathtub", "ill-wait", "headlights", "route-nine"}
+
+def expand(slug: str, shots: list[str]) -> list[str]:
+    order = EXTRA.get(slug)
+    if not order:
+        return shots
+    out = []
+    for item in order:
+        if item == "@":
+            out += shots
+        elif item.startswith("@") and item[1:].isdigit():
+            out.append(shots[int(item[1:])])
+        else:
+            out.append(item)
+    assert all(s in out for s in shots), slug
+    return out
 
 
 def main() -> None:
@@ -277,10 +380,9 @@ def main() -> None:
     for i, (ch, slug, text, shots) in enumerate(S, 1):
         sid = f"{i:03d}"
         assets, notes = [], []
+        shots = expand(slug, shots)
         for j, shot in enumerate(shots):
-            suffix = "" if len(shots) == 1 else "abc"[j]
-            if shot.startswith("CLIP:") and slug not in KEEP_CLIPS:
-                shot = shot[5:].strip()
+            suffix = "" if len(shots) == 1 else "abcdef"[j]
             if shot.startswith("CLIP:"):
                 assets.append(f"clips/{sid}{suffix}_{slug}.mp4"); clips += 1
                 notes.append(("Clip", shot[5:].strip()))
