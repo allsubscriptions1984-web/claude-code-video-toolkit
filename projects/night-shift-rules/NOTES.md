@@ -10,6 +10,19 @@ Handoff for the next session. Built with the `youtube-longform` template and ski
 - Next: owner is adding Modal + acemusic keys to the environment, then a fresh session
   deploys the toolkit's Modal tools and produces the long version below.
 
+## Status (2026-10-28, later)
+
+- `scenes.json` / `SCRIPT.md` now hold the full anthology from the plan below: cold open +
+  3 linked stories, 98 scenes, 3,546 words, 10 chapters, ~26.3 min (build.py estimate).
+  Regenerate both with `python3 make_anthology.py` — edit the story there, not in the JSON.
+- Shot plan per scene in `scenes[].shots`: 97 FLUX stills, 28 LTX clips, 2 text cards
+  (`CARD:` = title/end card, render text locally, never via an image model). Est. $9–11;
+  trim clips to ~16 to save ~$3 if asked.
+- Script sent to the owner for review — confirm "approved" (or apply edits) before spending.
+- Still needed at session start: real Modal token in env, owner's OK to run proxy_relay
+  (given in the kickoff message), then switch `config.json → voice` to qwen3/modal.
+- Thumbnail idea: "RULE 7: DON'T SERVE HIM", text rendered locally over a FLUX still.
+
 ## Cloud-session setup (learned 2026-10-28)
 
 - Modal's client ignores HTTPS_PROXY. Start `nohup uv run tools/proxy_relay.py >
