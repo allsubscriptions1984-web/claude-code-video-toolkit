@@ -19,6 +19,26 @@ uv run modal setup         # Opens browser to authenticate, saves token to ~/.mo
 uv run modal app list      # Verify it works
 ```
 
+### Sandboxes with an HTTPS proxy (Claude Code cloud sessions)
+
+In a sandbox that only allows outbound HTTPS through `HTTPS_PROXY` (e.g. a Claude Code
+cloud session), the Modal client fails with **"Could not connect to the Modal server"**
+(`MODAL_LOGLEVEL=DEBUG` shows `Name or service not known`): it ignores `HTTPS_PROXY` and
+there is no direct DNS. `tools/proxy_relay.py` maps `api.modal.com` to `127.0.0.1` and
+tunnels it through the proxy, so the proxy's allow-list still applies:
+
+```bash
+nohup uv run tools/proxy_relay.py > /tmp/proxy_relay.log 2>&1 &   # needs root
+uv run tools/proxy_relay.py --check                                # relay up? host mapped?
+uv run modal app list
+```
+
+There is no browser for `modal setup`, so authenticate with the `MODAL_TOKEN_ID` and
+`MODAL_TOKEN_SECRET` environment variables (create a token at modal.com/settings/tokens;
+both values are long `ak-…` / `as-…` strings). The environment's allowed domains need
+`modal.com`, `*.modal.com` and `*.modal.run`. "Token ID is malformed" means the relay
+works and the token value is wrong.
+
 ### Windows prerequisites
 
 Two Windows-specific issues will otherwise make the commands in this guide fail in ways

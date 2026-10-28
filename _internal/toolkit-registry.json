@@ -845,6 +845,20 @@
       "created": "2026-04-04",
       "updated": "2026-04-04"
     },
+    "proxy_relay": {
+      "path": "tools/proxy_relay.py",
+      "description": "Route proxy-unaware clients (Modal's gRPC client) through HTTPS_PROXY in sandboxes without direct DNS — maps hosts to 127.0.0.1 and tunnels by TLS SNI with HTTP CONNECT",
+      "usage": "nohup uv run tools/proxy_relay.py > /tmp/proxy_relay.log 2>&1 &",
+      "status": "beta",
+      "category": "utility",
+      "requires": "root (edits /etc/hosts, binds 443); HTTPS_PROXY",
+      "options": {
+        "host": "--host HOST (repeatable; default api.modal.com)",
+        "check": "--check (report proxy, relay and host-mapping state)"
+      },
+      "created": "2026-10-28",
+      "updated": "2026-10-28"
+    },
     "youtube_upload": {
       "path": "tools/youtube_upload.py",
       "description": "Upload a rendered video to YouTube via the Data API v3 (OAuth 2.0, resumable upload) — title/description/tags/thumbnail/captions/playlist, private/unlisted/public or scheduled publish",

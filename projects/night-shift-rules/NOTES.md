@@ -10,6 +10,15 @@ Handoff for the next session. Built with the `youtube-longform` template and ski
 - Next: owner is adding Modal + acemusic keys to the environment, then a fresh session
   deploys the toolkit's Modal tools and produces the long version below.
 
+## Cloud-session setup (learned 2026-10-28)
+
+- Modal's client ignores HTTPS_PROXY. Start `nohup uv run tools/proxy_relay.py >
+  /tmp/proxy_relay.log 2>&1 &` (toolkit root) before any `modal` command. Verified:
+  Modal's API answers through it.
+- The saved `MODAL_TOKEN_ID` / `MODAL_TOKEN_SECRET` were the 6-character placeholders
+  (`ak-...`), so Modal replied "Token ID is malformed". Owner must paste the real token.
+- `ACEMUSIC_API_KEY` network secret was not being applied (acemusic returned 401).
+
 ## Plan: "3 Night Shift Horror Stories Animated" (~25 min)
 
 | # | Story | ~Length | Premise |
