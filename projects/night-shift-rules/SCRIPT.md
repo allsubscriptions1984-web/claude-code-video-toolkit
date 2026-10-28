@@ -1,6 +1,6 @@
 # 3 Night Shift Horror Stories Animated
 
-_98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips, 2 text cards_
+_98 scenes · 3546 words · ≈24.5 min at 145 wpm · 109 stills, 16 motion clips, 2 text cards_
 
 
 ## Three Night Shifts
@@ -12,7 +12,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **002** — At a gas station on Route 9, rule seven says: never serve the man who pays in wet coins.
 
-> *Clip:* extreme close-up of old green rusted coins on a glass counter, water slowly spreading from each coin in rings, fluorescent flicker
+> *Image:* extreme close-up of old green rusted coins on a glass counter, water slowly spreading from each coin in rings, fluorescent flicker
 
 
 **003** — At Saint Agnes Hospital, the call light in room three fourteen comes on every night. That patient went home three years ago.
@@ -122,7 +122,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **020** — On the ninth night, at three ten, something inside it knocked. Three slow knocks. Then a pause. Then three more. I turned the radio up and sang along to songs I didn't know, until the sun came up.
 
-> *Clip:* the lid of a frosted chest freezer at the back of a dark store jolts slightly three times, frost cracking, a single bulb swaying
+> *Image:* the lid of a frosted chest freezer at the back of a dark store jolts slightly three times, frost cracking, a single bulb swaying
 
 > *Image:* a young night-shift clerk in a dark green work vest, seen from behind or in silhouette, face hidden hunched behind the counter with hands over ears, a radio turned up loud, pale dawn light at the windows
 
@@ -159,7 +159,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **026** — He came in on a Thursday, at three fifteen. Tall, long coat, soaked through, though it hadn't rained in a month. Water ran off him and pooled on the floor, and he didn't seem to notice.
 
-> *Clip:* a very tall gaunt man in a long black soaked coat, face lost in shadow steps inside a gas station door, water streaming off him and pooling on the tile floor, dry night outside, fluorescent light buzzing
+> *Image:* a very tall gaunt man in a long black soaked coat, face lost in shadow steps inside a gas station door, water streaming off him and pooling on the tile floor, dry night outside, fluorescent light buzzing
 
 
 **027** — The radio went quiet. Not static. Just quiet. Even the fridges stopped humming, like the whole store was holding its breath.
@@ -226,7 +226,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **038** — My name is Nadia, and I was a night nurse on the third floor of Saint Agnes Hospital, out on Route 9. I lasted nine weeks. I still have the pager. It still goes off.
 
-> *Clip:* a small old hospital on a dark highway at night in light rain, one lit window on the third floor
+> *Image:* a small old hospital on a dark highway at night in light rain, one lit window on the third floor
 
 > *Image:* close-up of an old hospital pager in a dark kitchen drawer, its tiny screen glowing green
 
@@ -273,7 +273,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **046** — I said hello. Nobody answered. The call light over the bed clicked off by itself, and from the bathroom, very quietly, someone said: thank you, nurse.
 
-> *Clip:* in a dark hospital room the red call light above the bed clicks off, and the bathroom door stands slightly ajar on pure darkness
+> *Image:* in a dark hospital room the red call light above the bed clicks off, and the bathroom door stands slightly ajar on pure darkness
 
 
 **047** — I didn't open the bathroom door. I walked out, very calmly, and then I walked a lot faster. Ruth handed me a cup of coffee like she'd been expecting me. Mister Ward, she said. He's polite. That's the worst part.
@@ -295,7 +295,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **050** — And I learned other things. The elevator stops on the third floor at two in the morning, even when nobody calls it. The doors open. Nobody gets out. Ruth said to always say good evening to it, and I did, every time, and I felt stupid, and I kept doing it.
 
-> *Clip:* hospital elevator doors slide open on an empty brightly lit elevator in a dark corridor, the light flickering, nobody inside
+> *Image:* hospital elevator doors slide open on an empty brightly lit elevator in a dark corridor, the light flickering, nobody inside
 
 > *Image:* a night nurse in dark navy scrubs, seen from behind or in silhouette, face hidden standing facing the open empty elevator, head slightly bowed
 
@@ -319,7 +319,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **054** — At three fifteen, the call light in three fourteen came on. And before I could stop her, she said, I've got it, and she was already walking down the hall.
 
-> *Clip:* a young nurse in light blue scrubs walks away down a long dark corridor toward a single red call light, the corridor stretching
+> *Image:* a young nurse in light blue scrubs walks away down a long dark corridor toward a single red call light, the corridor stretching
 
 
 
@@ -381,7 +381,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **065** — At midnight the next night, the printer at the station woke up and printed the census. Room three fourteen was still on it. But the name had changed. Marsh, Ruth. Status: pending discharge.
 
-> *Clip:* an old printer at a dark nurses station slowly feeds out a census sheet, a nurse's hand reaching for it
+> *Image:* an old printer at a dark nurses station slowly feeds out a census sheet, a nurse's hand reaching for it
 
 
 **066** — I quit that week. I paid back the bonus and moved two states away. Six months later, a letter came from Saint Agnes. A patient survey. Thank you for your recent stay with us. Clipped to it was a discharge form. Patient name: mine.
@@ -398,7 +398,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **068** — I never signed it. It's in a drawer with the pager. Every night at three fifteen, the pager goes off. Three numbers on the screen. Three one four. And some nights, if I'm awake, I can hear a voice from the drawer, very quietly. Thank you, nurse.
 
-> *Clip:* a kitchen drawer in a dark apartment glows faintly green from inside as an old pager buzzes
+> *Image:* a kitchen drawer in a dark apartment glows faintly green from inside as an old pager buzzes
 
 > *Image:* a night nurse in dark navy scrubs, seen from behind or in silhouette, face hidden sitting awake in bed in the dark, staring at a closed drawer
 
@@ -408,7 +408,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **069** — My name is Jonah, and I worked the night desk at the Pinewood Motor Lodge, the last motel on Route 9 before the road goes into the pines. Twelve rooms. A sign that only says vacancy. And one guest who checks in every night at three thirty three.
 
-> *Clip:* a small twelve-room roadside motel at the edge of a pine forest at night, a buzzing red neon vacancy sign flickering, empty lot
+> *Image:* a small twelve-room roadside motel at the edge of a pine forest at night, a buzzing red neon vacancy sign flickering, empty lot
 
 > *Image:* a young motel night clerk in a faded flannel shirt, seen from behind or in silhouette, face hidden behind a wood-panelled motel front desk with a brass bell and key hooks
 
@@ -471,7 +471,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **079** — I followed it back to the very first entry. October twelfth, nineteen eighty seven. The week Route 9 flooded. The river came over the road and into the ground floor of the Pinewood, and one guest never made it out. Room nine.
 
-> *Clip:* archival-looking night scene of a river flooding over a two-lane road into a motel lot, water rising against doors, rain
+> *Image:* archival-looking night scene of a river flooding over a two-lane road into a motel lot, water rising against doors, rain
 
 > *Image:* a motel door numbered nine half underwater at night, a dark coat floating in the water
 
@@ -483,7 +483,7 @@ _98 scenes · 3546 words · ≈24.5 min at 145 wpm · 97 stills, 28 motion clips
 
 **081** — Then came the storm. Real rain, the kind that turns Route 9 back into a river. By midnight, every room was full. Truckers. A couple on their honeymoon. An old man with a dog. Every room except nine.
 
-> *Clip:* torrential rain hammering a motel parking lot full of trucks and cars at night, the vacancy sign flickering, water streaming across the asphalt
+> *Image:* torrential rain hammering a motel parking lot full of trucks and cars at night, the vacancy sign flickering, water streaming across the asphalt
 
 
 **082** — At one in the morning, a car slid into the lot. A family. A mom, a dad, two little kids asleep in the back. The road ahead was closed. The road behind them was closed. They had nowhere to go.

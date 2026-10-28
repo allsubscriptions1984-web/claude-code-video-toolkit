@@ -21,10 +21,10 @@
       "id": "002",
       "slug": "tease-coins",
       "text": "At a gas station on Route 9, rule seven says: never serve the man who pays in wet coins.",
-      "asset": "clips/002_tease-coins.mp4",
+      "asset": "images/002_tease-coins.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. extreme close-up of old green rusted coins on a glass counter, water slowly spreading from each coin in rings, fluorescent flicker"
         }
       ]
@@ -289,12 +289,12 @@
       "slug": "knocks",
       "text": "On the ninth night, at three ten, something inside it knocked. Three slow knocks. Then a pause. Then three more. I turned the radio up and sang along to songs I didn't know, until the sun came up.",
       "asset": [
-        "clips/020a_knocks.mp4",
+        "images/020a_knocks.png",
         "images/020b_knocks.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. the lid of a frosted chest freezer at the back of a dark store jolts slightly three times, frost cracking, a single bulb swaying"
         },
         {
@@ -374,10 +374,10 @@
       "id": "026",
       "slug": "thursday",
       "text": "He came in on a Thursday, at three fifteen. Tall, long coat, soaked through, though it hadn't rained in a month. Water ran off him and pooled on the floor, and he didn't seem to notice.",
-      "asset": "clips/026_thursday.mp4",
+      "asset": "images/026_thursday.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a very tall gaunt man in a long black soaked coat, face lost in shadow steps inside a gas station door, water streaming off him and pooling on the tile floor, dry night outside, fluorescent light buzzing"
         }
       ],
@@ -534,12 +534,12 @@
       "slug": "pager",
       "text": "My name is Nadia, and I was a night nurse on the third floor of Saint Agnes Hospital, out on Route 9. I lasted nine weeks. I still have the pager. It still goes off.",
       "asset": [
-        "clips/038a_pager.mp4",
+        "images/038a_pager.png",
         "images/038b_pager.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small old hospital on a dark highway at night in light rain, one lit window on the third floor"
         },
         {
@@ -645,10 +645,10 @@
       "id": "046",
       "slug": "thank-you",
       "text": "I said hello. Nobody answered. The call light over the bed clicked off by itself, and from the bathroom, very quietly, someone said: thank you, nurse.",
-      "asset": "clips/046_thank-you.mp4",
+      "asset": "images/046_thank-you.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. in a dark hospital room the red call light above the bed clicks off, and the bathroom door stands slightly ajar on pure darkness"
         }
       ]
@@ -701,12 +701,12 @@
       "slug": "elevator",
       "text": "And I learned other things. The elevator stops on the third floor at two in the morning, even when nobody calls it. The doors open. Nobody gets out. Ruth said to always say good evening to it, and I did, every time, and I felt stupid, and I kept doing it.",
       "asset": [
-        "clips/050a_elevator.mp4",
+        "images/050a_elevator.png",
         "images/050b_elevator.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. hospital elevator doors slide open on an empty brightly lit elevator in a dark corridor, the light flickering, nobody inside"
         },
         {
@@ -762,10 +762,10 @@
       "id": "054",
       "slug": "ive-got-it",
       "text": "At three fifteen, the call light in three fourteen came on. And before I could stop her, she said, I've got it, and she was already walking down the hall.",
-      "asset": "clips/054_ive-got-it.mp4",
+      "asset": "images/054_ive-got-it.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a young nurse in light blue scrubs walks away down a long dark corridor toward a single red call light, the corridor stretching"
         }
       ]
@@ -909,10 +909,10 @@
       "id": "065",
       "slug": "new-census",
       "text": "At midnight the next night, the printer at the station woke up and printed the census. Room three fourteen was still on it. But the name had changed. Marsh, Ruth. Status: pending discharge.",
-      "asset": "clips/065_new-census.mp4",
+      "asset": "images/065_new-census.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. an old printer at a dark nurses station slowly feeds out a census sheet, a nurse's hand reaching for it"
         }
       ]
@@ -953,12 +953,12 @@
       "slug": "drawer",
       "text": "I never signed it. It's in a drawer with the pager. Every night at three fifteen, the pager goes off. Three numbers on the screen. Three one four. And some nights, if I'm awake, I can hear a voice from the drawer, very quietly. Thank you, nurse.",
       "asset": [
-        "clips/068a_drawer.mp4",
+        "images/068a_drawer.png",
         "images/068b_drawer.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a kitchen drawer in a dark apartment glows faintly green from inside as an old pager buzzes"
         },
         {
@@ -972,12 +972,12 @@
       "slug": "pinewood",
       "text": "My name is Jonah, and I worked the night desk at the Pinewood Motor Lodge, the last motel on Route 9 before the road goes into the pines. Twelve rooms. A sign that only says vacancy. And one guest who checks in every night at three thirty three.",
       "asset": [
-        "clips/069a_pinewood.mp4",
+        "images/069a_pinewood.png",
         "images/069b_pinewood.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. a small twelve-room roadside motel at the edge of a pine forest at night, a buzzing red neon vacancy sign flickering, empty lot"
         },
         {
@@ -1129,12 +1129,12 @@
       "slug": "flood",
       "text": "I followed it back to the very first entry. October twelfth, nineteen eighty seven. The week Route 9 flooded. The river came over the road and into the ground floor of the Pinewood, and one guest never made it out. Room nine.",
       "asset": [
-        "clips/079a_flood.mp4",
+        "images/079a_flood.png",
         "images/079b_flood.png"
       ],
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. archival-looking night scene of a river flooding over a two-lane road into a motel lot, water rising against doors, rain"
         },
         {
@@ -1159,10 +1159,10 @@
       "id": "081",
       "slug": "storm",
       "text": "Then came the storm. Real rain, the kind that turns Route 9 back into a river. By midnight, every room was full. Truckers. A couple on their honeymoon. An old man with a dog. Every room except nine.",
-      "asset": "clips/081_storm.mp4",
+      "asset": "images/081_storm.png",
       "shots": [
         {
-          "kind": "clip",
+          "kind": "image",
           "prompt": "dark 2D animated horror illustration, flat cel shading, muted desaturated palette of sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, film grain, cinematic 16:9 wide shot, no text, no words, no letters. torrential rain hammering a motel parking lot full of trucks and cars at night, the vacancy sign flickering, water streaming across the asphalt"
         }
       ]

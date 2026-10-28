@@ -263,6 +263,13 @@ S = [
 ]
 
 
+# Motion clips cost the most (~$0.23 each), so only the biggest scare beats move;
+# every other CLIP shot is rendered as a still (Ken Burns) instead.
+KEEP_CLIPS = {"rules", "listing", "no-headlights", "nozzle", "canopy-lights", "smile", "loop",
+              "rule-twelve", "first-light", "white-eyes", "lights-out", "three-thirty-three",
+              "bathtub", "ill-wait", "headlights", "route-nine"}
+
+
 def main() -> None:
     scenes, md, words, chapter = [], [], 0, None
     md.append("# 3 Night Shift Horror Stories Animated\n")
@@ -272,6 +279,8 @@ def main() -> None:
         assets, notes = [], []
         for j, shot in enumerate(shots):
             suffix = "" if len(shots) == 1 else "abc"[j]
+            if shot.startswith("CLIP:") and slug not in KEEP_CLIPS:
+                shot = shot[5:].strip()
             if shot.startswith("CLIP:"):
                 assets.append(f"clips/{sid}{suffix}_{slug}.mp4"); clips += 1
                 notes.append(("Clip", shot[5:].strip()))

@@ -15,10 +15,16 @@ Handoff for the next session. Built with the `youtube-longform` template and ski
 - `scenes.json` / `SCRIPT.md` now hold the full anthology from the plan below: cold open +
   3 linked stories, 98 scenes, 3,546 words, 10 chapters, ~26.3 min (build.py estimate).
   Regenerate both with `python3 make_anthology.py` — edit the story there, not in the JSON.
-- Shot plan per scene in `scenes[].shots`: 97 FLUX stills, 28 LTX clips, 2 text cards
-  (`CARD:` = title/end card, render text locally, never via an image model). Est. $9–11;
-  trim clips to ~16 to save ~$3 if asked.
-- Script sent to the owner for review — confirm "approved" (or apply edits) before spending.
+- Shot plan per scene in `scenes[].shots`: 109 FLUX stills, 16 LTX clips (only the big scare
+  beats, see KEEP_CLIPS in make_anthology.py), 2 text cards (`CARD:` = title/end card, render
+  text locally, never via an image model). Est. ~$6–8.
+- **Script APPROVED by the owner (2026-10-28).** Owner priority: best quality, credits used
+  carefully. Credit rules for the build session:
+  1. Test first: 2 stills + 1 LTX clip + 3 VO scenes; check style/voice before any batch.
+  2. Narration on Qwen3 (Modal), music on acemusic (free); no ElevenLabs credits.
+  3. Never blind-retry a generation: look at the output, fix the prompt, then regenerate
+     only that one asset. Re-renders of build.py are free; regenerate assets sparingly.
+  4. Report spend after each batch (stills, clips, VO).
 - Still needed at session start: real Modal token in env, owner's OK to run proxy_relay
   (given in the kickoff message), then switch `config.json → voice` to qwen3/modal.
 - Thumbnail idea: "RULE 7: DON'T SERVE HIM", text rendered locally over a FLUX still.
