@@ -60,7 +60,7 @@ except ImportError as e:
 
 HERE = Path(__file__).resolve().parent
 TEXT_CACHE = HERE / ".text_cache"
-BUILD_VERSION = "2"  # bump to invalidate every cached chapter
+BUILD_VERSION = "3-belghati"  # bump to invalidate every cached chapter
 
 CONFIG = json.loads((HERE / "config.json").read_text())
 FMT = CONFIG["format"]
@@ -237,6 +237,23 @@ def scene_assets(scene: dict) -> list[str]:
     return a if isinstance(a, list) else [a]
 
 
+SFX_DIR = HERE / "audio" / "sfx"
+SFX_GAIN = {"knock3": 0.9, "knock4": 0.95, "drip": 0.6, "khat": 0.9, "phone": 0.6, "latch": 0.8,
+            "power-down": 0.9, "whistle": 0.55, "baby": 0.7}
+SCARES = {"knock4", "khat", "power-down", "latch"}  # these also shake + flash the frame
+_SFX_LEN: dict = {}
+
+
+def sfx_len(name: str) -> float | None:
+    """Length of audio/sfx/<name>.wav, or None when that effect wasn't made."""
+    if name not in _SFX_LEN:
+        f = SFX_DIR / f"{name}.wav"
+        _SFX_LEN[name] = (float(subprocess.check_output(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)]))
+            if f.exists() else None)
+    return _SFX_LEN[name]
+
+
 def estimate_duration(text: str) -> float:
     return max(2.0, len(text.split()) / 2.5)  # ~150 wpm fallback estimate
 
@@ -268,11 +285,24 @@ def build_timeline(scenes: list[dict], durations: dict) -> tuple[list[dict], flo
         for s in ch["scenes"]:
             measured = s["id"] in durations
             vo = durations.get(s["id"]) or estimate_duration(s["text"])
+            # a "start" effect plays before the narration, an "end" one after it
+            sfx = [(n, w, sfx_len(n)) for n, w in s.get("sfx", [])]
+            sfx = [(n, w, ln) for n, w, ln in sfx if ln]
+            pre = sum(ln + 0.15 for _, w, ln in sfx if w == "start")
             s["_local_start"] = local
-            s["_vo_local"] = local + lead
+            s["_vo_local"] = local + pre + lead
             s["_vo"] = vo
             s["_measured"] = measured
-            s["_dur"] = lead + vo + tail
+            s["_sfx"], at = [], local + 0.15
+            for n, w, ln in sfx:
+                if w == "start":
+                    s["_sfx"].append((n, at)); at += ln + 0.15
+            at = s["_vo_local"] + vo + 0.25
+            for n, w, ln in sfx:
+                if w == "end":
+                    s["_sfx"].append((n, at)); at += ln + 0.15
+            post = max(0.0, at - (s["_vo_local"] + vo + tail))
+            s["_dur"] = pre + lead + vo + tail + post
             local += s["_dur"]
         if ci == len(chapters) - 1:
             local += end_pad
@@ -291,7 +321,7 @@ def chunk_words(words: list[dict], max_words: int, max_chars: int) -> list[dict]
             cur = []
         cur.append(w)
         # break after sentence punctuation so subtitles follow the script's rhythm
-        if w["w"][-1:] in ".?!":
+        if w["w"][-1:] in ".?!।":
             chunks.append({"text": " ".join(c["w"] for c in cur),
                            "start": cur[0]["s"], "end": cur[-1]["e"]})
             cur = []
@@ -421,6 +451,7 @@ def render_chapter(ch: dict, out: Path, preview: bool, zoom_in: bool) -> bool:
 
     blank = np.empty((H, W, 3), dtype=np.uint8)
     blank[:] = ink.astype(np.uint8)
+    scares = [at for s in ch["scenes"] for n, at in s.get("_sfx", []) if n in SCARES]
 
     def frame(t: float) -> np.ndarray:
         img = None
@@ -433,6 +464,14 @@ def render_chapter(ch: dict, out: Path, preview: bool, zoom_in: bool) -> bool:
                 break
         if img is None:
             img = blank.copy()
+        for at in scares:
+            dt = t - at
+            if 0 <= dt < 0.45:
+                amp = int(16 * S * (1 - dt / 0.45))
+                rng = np.random.default_rng(int(t * FPS))
+                img = np.roll(img, (int(rng.integers(-amp, amp + 1)), int(rng.integers(-amp, amp + 1))), (0, 1))
+                if dt < 0.1:
+                    img = np.clip(img.astype(np.int16) + int(110 * (1 - dt / 0.1)), 0, 255).astype(np.uint8)
         for ov in overlays:
             if ov.start <= t < ov.end:
                 ov.blend(img, t)
@@ -460,15 +499,17 @@ def build_audio(chapters: list[dict], total: float, wav: Path) -> bool:
         for s in ch["scenes"]:
             mp3 = scene_mp3(s)
             if mp3.exists() and s["_measured"]:
-                parts.append((mp3, ch["start"] + s["_vo_local"]))
+                parts.append((mp3, ch["start"] + s["_vo_local"], 1.0))
+            for n, at in s.get("_sfx", []):
+                parts.append((SFX_DIR / f"{n}.wav", ch["start"] + at, SFX_GAIN.get(n, 0.8)))
     if not parts:
         return False
     inputs, graph = [], []
-    for i, (mp3, start) in enumerate(parts):
+    for i, (mp3, start, gain) in enumerate(parts):
         inputs += ["-i", str(mp3)]
         ms = int(round(start * 1000))
         graph.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,"
-                     f"adelay={ms}|{ms}[a{i}]")
+                     f"volume={gain},adelay={ms}|{ms}[a{i}]")
     graph.append("".join(f"[a{i}]" for i in range(len(parts)))
                  + f"amix=inputs={len(parts)}:normalize=0:duration=longest,"
                    f"apad=whole_dur={total:.3f}[out]")

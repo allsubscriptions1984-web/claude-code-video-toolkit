@@ -19,7 +19,7 @@
     "maxWords": 6,
     "maxChars": 40,
     "fill": "#FFFFFF",
-    "language": "en",
+    "language": "hi",
     "whisperModel": "auto"
   },
   "srt": {
@@ -42,12 +42,12 @@
     "endPad": 3.0
   },
   "voice": {
-    "provider": "elevenlabs",
-    "note": "generated via the ElevenLabs connector, voice Cedric M (BQOei2tk6QCBMHQWPhbj)"
+    "provider": "indic-parler-tts",
+    "note": "AI4Bharat Indic Parler-TTS on CPU, speaker Aman, Hinglish; see prep_audio.py"
   },
   "music": {
     "file": "audio/music.mp3",
-    "volume": 0.22,
+    "volume": 0.25,
     "duck": true
   },
   "audio": {

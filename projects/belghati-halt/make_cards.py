@@ -99,7 +99,7 @@ def card(kind: str, text: str, seed: int) -> Image.Image:
         d.line((W / 2 - 120, y - 25, W / 2 + 120, y - 25), fill=PAL["slate"], width=3)
         centered(d, lines, fr, y, PAL["white"], 1.3)
     else:
-        f = font(130 if kind == "title" else 110)
+        f = font(108 if kind == "title" else 100)
         lines = wrap(d, text, f, 1820)
         y = (H - len(lines) * f.size * 1.3) / 2
         centered(d, lines, f, y, PAL["white"] if kind == "title" else PAL["warn"], 1.3)
