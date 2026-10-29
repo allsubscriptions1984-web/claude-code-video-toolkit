@@ -1,0 +1,5 @@
+[1]format=gray,crop=1920:1080:x='mod(t*22,1920)':y=0[far];
+[2]format=gray,crop=1920:1080:x='mod(t*55,1920)':y=0[near];
+[far][near]blend=all_mode=lighten,format=gbrp,colorchannelmixer=rr=0.62:gg=0.72:bb=0.66[fog];
+[0:v]format=gbrp[m];
+[m][fog]blend=all_mode=screen:all_opacity=0.17:shortest=1,vignette=angle=PI/4.5,noise=alls=5:allf=t,format=yuv420p[v]
