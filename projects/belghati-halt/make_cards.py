@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Render the CARD: shots in scenes.json as 1920x1080 PNGs with real Devanagari type.
 
-Card prompts look like "rule — नियम ४: text", "title — text" or "end — text".
-Rules: the "नियम N" label in the warning red, the rule below it in off-white.
+Card prompts look like "rule — RULE 4: text", "title — text" or "end — text".
+Rules: the "RULE N" label in the warning red, the rule below it in off-white.
 Run from the toolkit root: uv run projects/belghati-halt/make_cards.py
 """
 import json
 import random
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -14,18 +15,46 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE = Path(__file__).parent
 W, H = 1920, 1080
 FONT = "/usr/share/fonts/truetype/noto/NotoSerifDevanagari-Bold.ttf"
+LATIN_FONT = "/usr/share/fonts/truetype/noto/NotoSerif-Bold.ttf"  # Devanagari font has no A-Z
+LATIN = re.compile(r"([A-Za-z#][A-Za-z#'’.-]*)")
 PAL = json.load(open(HERE / "config.json"))["palette"]
 
 
-def font(size: int) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(FONT, size, layout_engine=ImageFont.Layout.RAQM)
+class Font:
+    """A Devanagari face plus a Latin face, picked per run (Hinglish mixes both)."""
+
+    def __init__(self, size: int):
+        self.size = size
+        self.deva = ImageFont.truetype(FONT, size, layout_engine=ImageFont.Layout.RAQM)
+        self.latin = ImageFont.truetype(LATIN_FONT, size, layout_engine=ImageFont.Layout.RAQM)
+
+    def runs(self, text: str):
+        for i, part in enumerate(LATIN.split(text)):
+            if part:
+                yield part, self.latin if i % 2 else self.deva
+
+
+def font(size: int) -> Font:
+    return Font(size)
+
+
+def text_width(draw: ImageDraw.ImageDraw, text: str, f: Font) -> float:
+    return sum(draw.textlength(part, font=face) for part, face in f.runs(text))
+
+
+def draw_text(draw: ImageDraw.ImageDraw, x: float, y: float, text: str, f: Font, fill) -> None:
+    """Draw mixed-script text with every run on one shared baseline."""
+    baseline = y + f.deva.getmetrics()[0]
+    for part, face in f.runs(text):
+        draw.text((x, baseline), part, font=face, fill=fill, anchor="ls")
+        x += draw.textlength(part, font=face)
 
 
 def wrap(draw: ImageDraw.ImageDraw, text: str, f, max_w: int) -> list[str]:
     lines, cur = [], ""
     for word in text.split():
         trial = f"{cur} {word}".strip()
-        if draw.textlength(trial, font=f) <= max_w:
+        if text_width(draw, trial, f) <= max_w:
             cur = trial
         else:
             lines.append(cur)
@@ -52,8 +81,7 @@ def background(seed: int) -> Image.Image:
 def centered(draw, lines, f, y, fill, gap=1.25):
     lh = f.size * gap
     for line in lines:
-        w = draw.textlength(line, font=f)
-        draw.text(((W - w) / 2, y), line, font=f, fill=fill)
+        draw_text(draw, (W - text_width(draw, line, f)) / 2, y, line, f, fill)
         y += lh
     return y
 
@@ -72,7 +100,7 @@ def card(kind: str, text: str, seed: int) -> Image.Image:
         centered(d, lines, fr, y, PAL["white"], 1.3)
     else:
         f = font(130 if kind == "title" else 110)
-        lines = wrap(d, text, f, 1600)
+        lines = wrap(d, text, f, 1820)
         y = (H - len(lines) * f.size * 1.3) / 2
         centered(d, lines, f, y, PAL["white"] if kind == "title" else PAL["warn"], 1.3)
     return img

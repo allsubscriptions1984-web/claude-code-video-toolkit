@@ -5,6 +5,12 @@ Original Hindi railway horror story, ~20 min, 77 scenes, 8 chapters. Built on th
 Edit the story in `make_story.py`, then `python3 make_story.py` rewrites scenes.json + SCRIPT.md.
 
 ## Status
+- 2026-10-29: owner found formal Hindi "boring, 80's" → narration rewritten in modern Hinglish
+  (Devanagari, English words transliterated), Roman-Hinglish title/chapters/description,
+  "RULE N" cards (make_cards.py mixes Noto Serif + Noto Serif Devanagari per run).
+- Voice: Indic Parler-TTS works (HF access granted). Owner wants a heavy, soft voice; testing
+  Rohit vs Aman with a casual "telling friends a scary story" description. ~8x realtime on CPU.
+- Stills: 48/122 done (images/). Background tasks cap at 2 h: run the rest in chunks.
 - Script written (owner reviewing). No assets generated, nothing spent.
 - 122 FLUX stills + 11 Hindi text cards (`CARD:` shots, rendered locally, never by an image model).
 
