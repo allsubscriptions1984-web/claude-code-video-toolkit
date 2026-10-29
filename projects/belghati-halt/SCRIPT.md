@@ -1,6 +1,6 @@
 # Belghati Halt Ke 7 Rules | Raat 3:33 Ki Train | Hindi Horror Story Animated
 
-_77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
+_77 scenes · 2481 words · ≈20.7 min at 120 wpm · 122 stills, 11 text cards_
 
 
 ## Belghati Halt
@@ -137,7 +137,7 @@ _77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
 > *Image:* a young Indian railway clerk in a navy blue sweater over a white shirt, seen from behind or in silhouette, face hidden leaning back in a chair in the booking office, an old transistor radio glowing on the shelf, the register closed on the desk
 
 
-**019** — फ़र्स्ट छह दिन, कुछ नहीं हुआ। दिन की लोकल में गाँव वाले आते, मैं टिकट काटता, और खट… मशीन में डेट पंच। इतनी बार किया, कि हाथ को आदत पड़ गई। आँख बंद करके भी… खट।
+**019** — फ़र्स्ट छह दिन, कुछ नहीं हुआ। दिन की लोकल में गाँव वाले आते, मैं टिकट काटता, और मशीन में डेट पंच। इतनी बार किया, कि हाथ को आदत पड़ गई। आँख बंद करके भी।
 
 > *Image:* villagers with bundles queueing at a small ticket window on a sunny morning, a train waiting behind them
 
@@ -161,12 +161,12 @@ _77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
 > *Image:* a clock on a booking office wall showing ten past one, a lantern below it
 
 
-**022** — ठक। ठक। ठक। तीन बार। मैंने विंडो खोली। बाहर एक बूढ़ी अम्मा थीं, सिर पे पल्लू। पूछा — बेटा, सुबह वाली गाड़ी कितने बजे है? मैंने बताया। वो आशीर्वाद देके चली गईं। बस। एकदम नॉर्मल।
+**022** — तीन बार। मैंने विंडो खोली। बाहर एक बूढ़ी अम्मा थीं, सिर पे पल्लू। पूछा — बेटा, सुबह वाली गाड़ी कितने बजे है? मैंने बताया। वो आशीर्वाद देके चली गईं। बस। एकदम नॉर्मल।
 
 > *Image:* a small barred railway ticket window with a wooden shutter, seen from inside a dim booking office, the shutter open, an old village woman with her saree over her head outside in the fog, face hidden
 
 
-**023** — मैंने सोचा, देखा? कुछ नहीं होता। मैं चेयर पे बैठा ही था, कि फिर से नॉक हुआ। ठक। ठक। ठक। …ठक।
+**023** — मैंने सोचा, देखा? कुछ नहीं होता। मैं चेयर पे बैठा ही था, कि फिर से नॉक हुआ।
 
 > *Image:* a small barred railway ticket window with a wooden shutter, seen from inside a dim booking office, the shutter closed, the wood trembling slightly, the room dark
 
@@ -192,7 +192,7 @@ _77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
 > *Image:* a wooden desk drawer sliding shut on a small wet brown ticket
 
 
-**027** — दो बजे मैं प्लेटफ़ॉर्म का राउंड लेने निकला। लास्ट बेंच पर कोई सो रहा था। सिर से पैर तक भूरी शॉल में लिपटा। और शॉल से पानी टपक रहा था… टप… टप… जबकि उस रात बारिश हुई ही नहीं थी।
+**027** — दो बजे मैं प्लेटफ़ॉर्म का राउंड लेने निकला। लास्ट बेंच पर कोई सो रहा था। सिर से पैर तक भूरी शॉल में लिपटा। और शॉल से पानी टपक रहा था… जबकि उस रात बारिश हुई ही नहीं थी।
 
 > *Image:* a young Indian railway clerk in a navy blue sweater over a white shirt, seen from behind or in silhouette, face hidden with a torch walking along a foggy railway platform toward its far dark end
 
@@ -316,7 +316,7 @@ _77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
 > *Image:* a figure wrapped head to toe in a soaked brown shawl sitting bolt upright on the last platform bench, its covered head turned toward the viewer, fog
 
 
-**045** — तीन बजकर बीस मिनट पर विंडो पर नॉक हुआ। ठक। ठक। ठक। ठक। चार बार। और फिर… एक बच्चे के रोने की आवाज़।
+**045** — तीन बजकर बीस मिनट पर विंडो पर नॉक हुआ। चार बार। और फिर… एक बच्चे के रोने की आवाज़।
 
 > *Image:* a small barred railway ticket window with a wooden shutter, seen from inside a dim booking office, the shutter closed and shaking, fog glowing behind the cracks
 
@@ -338,7 +338,7 @@ _77 scenes · 2497 words · ≈20.8 min at 120 wpm · 122 stills, 11 text cards_
 > *Image:* an iron latch sliding open on a wooden shutter, fog pouring in through the gap
 
 
-**049** — बाहर कोई नहीं था। सिर्फ़ कोहरा। और काउंटर पर एक गीला, ठंडा हाथ… जो एक भूरा टिकट मेरी तरफ़ सरका रहा था। और मेरे हाथ ने वही किया… जो छह दिन से करता आ रहा था। खट।
+**049** — बाहर कोई नहीं था। सिर्फ़ कोहरा। और काउंटर पर एक गीला, ठंडा हाथ… जो एक भूरा टिकट मेरी तरफ़ सरका रहा था। और मेरे हाथ ने वही किया… जो छह दिन से करता आ रहा था।
 
 > *Image:* a pale dripping hand reaching in through an open ticket window, pushing a small old brown cardboard railway ticket, soaking wet across the counter, nobody visible outside
 

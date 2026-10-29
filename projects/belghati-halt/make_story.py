@@ -17,9 +17,10 @@ from pathlib import Path
 HERE = Path(__file__).parent
 WPM = 120  # Hindi narration, slow horror pacing
 
-STYLE = ("dark 2D animated horror illustration, flat cel shading, muted desaturated palette of "
-         "sodium orange, sickly green and deep blue-black, heavy black shadows, thick clean outlines, "
-         "film grain, cinematic 16:9 wide shot, rural India, no text, no words, no letters")
+STYLE = ("dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, "
+         "serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, "
+         "deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, "
+         "no text, no words, no letters")
 AKASH = "a young Indian railway clerk in a navy blue sweater over a white shirt, seen from behind or in silhouette, face hidden"
 BHOLA = "a thin old Indian man in a brown woollen shawl and dhoti holding a glowing kerosene lantern, face lost in shadow"
 TIWARI = "a nervous middle-aged Indian station master in a white railway uniform and a black woollen coat, face turned away"
@@ -112,7 +113,7 @@ S = [
      "सच बोलूँ? मुझे हँसी आ गई। लगा, नए स्टाफ़ के साथ कोई पुराना प्रैंक है। मैंने रजिस्टर बंद किया, टिकट पंचिंग मशीन सेट की, और रेडियो पे पुराने गाने लगा दिए।",
      [f"{AKASH} leaning back in a chair in the booking office, an old transistor radio glowing on the shelf, the register closed on the desk"]),
     (None, "habit",
-     "फ़र्स्ट छह दिन, कुछ नहीं हुआ। दिन की लोकल में गाँव वाले आते, मैं टिकट काटता, और खट… मशीन में डेट पंच। इतनी बार किया, कि हाथ को आदत पड़ गई। आँख बंद करके भी… खट।",
+     "फ़र्स्ट छह दिन, कुछ नहीं हुआ। दिन की लोकल में गाँव वाले आते, मैं टिकट काटता, और मशीन में डेट पंच। इतनी बार किया, कि हाथ को आदत पड़ गई। आँख बंद करके भी।",
      ["villagers with bundles queueing at a small ticket window on a sunny morning, a train waiting behind them",
       "close-up of a hand pressing a small brown ticket into an old brass ticket punching machine, motion blur"]),
     (None, "kalu",
@@ -126,10 +127,10 @@ S = [
      [f"{HALT}, the platform lamps reduced to blurry moons in the fog",
       "a clock on a booking office wall showing ten past one, a lantern below it"]),
     (None, "three-knocks",
-     "ठक। ठक। ठक। तीन बार। मैंने विंडो खोली। बाहर एक बूढ़ी अम्मा थीं, सिर पे पल्लू। पूछा — बेटा, सुबह वाली गाड़ी कितने बजे है? मैंने बताया। वो आशीर्वाद देके चली गईं। बस। एकदम नॉर्मल।",
+     "तीन बार। मैंने विंडो खोली। बाहर एक बूढ़ी अम्मा थीं, सिर पे पल्लू। पूछा — बेटा, सुबह वाली गाड़ी कितने बजे है? मैंने बताया। वो आशीर्वाद देके चली गईं। बस। एकदम नॉर्मल।",
      [f"{WINDOW}, the shutter open, an old village woman with her saree over her head outside in the fog, face hidden"]),
     (None, "fourth-knock",
-     "मैंने सोचा, देखा? कुछ नहीं होता। मैं चेयर पे बैठा ही था, कि फिर से नॉक हुआ। ठक। ठक। ठक। …ठक।",
+     "मैंने सोचा, देखा? कुछ नहीं होता। मैं चेयर पे बैठा ही था, कि फिर से नॉक हुआ।",
      [f"{WINDOW}, the shutter closed, the wood trembling slightly, the room dark",
       "extreme close-up of a clerk's hand frozen above the iron latch of a wooden shutter"]),
     (None, "sonali-pul",
@@ -144,7 +145,7 @@ S = [
      [f"close-up of {TICKET} in a clerk's fingers under lamplight, faded printing blurred and unreadable",
       "a wooden desk drawer sliding shut on a small wet brown ticket"]),
     (None, "the-sleeper",
-     "दो बजे मैं प्लेटफ़ॉर्म का राउंड लेने निकला। लास्ट बेंच पर कोई सो रहा था। सिर से पैर तक भूरी शॉल में लिपटा। और शॉल से पानी टपक रहा था… टप… टप… जबकि उस रात बारिश हुई ही नहीं थी।",
+     "दो बजे मैं प्लेटफ़ॉर्म का राउंड लेने निकला। लास्ट बेंच पर कोई सो रहा था। सिर से पैर तक भूरी शॉल में लिपटा। और शॉल से पानी टपक रहा था… जबकि उस रात बारिश हुई ही नहीं थी।",
      [f"{AKASH} with a torch walking along a foggy railway platform toward its far dark end",
       f"{SLEEPER}, under the last flickering platform lamp"]),
     (None, "dont-wake",
@@ -216,7 +217,7 @@ S = [
      "दो बजे लास्ट बेंच पर फिर वही शॉल वाली शेप थी। लेकिन आज वो सो नहीं रही थी। बैठी थी। एकदम सीधी। और उसका सिर… केबिन की तरफ़ मुड़ा हुआ था।",
      ["a figure wrapped head to toe in a soaked brown shawl sitting bolt upright on the last platform bench, its covered head turned toward the viewer, fog"]),
     (None, "baby-cries",
-     "तीन बजकर बीस मिनट पर विंडो पर नॉक हुआ। ठक। ठक। ठक। ठक। चार बार। और फिर… एक बच्चे के रोने की आवाज़।",
+     "तीन बजकर बीस मिनट पर विंडो पर नॉक हुआ। चार बार। और फिर… एक बच्चे के रोने की आवाज़।",
      [f"{WINDOW}, the shutter closed and shaking, fog glowing behind the cracks"]),
     (None, "mother-begs",
      "एक औरत की आवाज़ आई, काँपती हुई — बाबूजी, प्लीज़ विंडो खोलो। बच्चा ठंड से अकड़ रहा है। बस एक मिनट अंदर आने दो। भगवान के लिए।",
@@ -229,7 +230,7 @@ S = [
      "मैंने कुंडी खोल दी।",
      ["an iron latch sliding open on a wooden shutter, fog pouring in through the gap"]),
     (None, "khat",
-     "बाहर कोई नहीं था। सिर्फ़ कोहरा। और काउंटर पर एक गीला, ठंडा हाथ… जो एक भूरा टिकट मेरी तरफ़ सरका रहा था। और मेरे हाथ ने वही किया… जो छह दिन से करता आ रहा था। खट।",
+     "बाहर कोई नहीं था। सिर्फ़ कोहरा। और काउंटर पर एक गीला, ठंडा हाथ… जो एक भूरा टिकट मेरी तरफ़ सरका रहा था। और मेरे हाथ ने वही किया… जो छह दिन से करता आ रहा था।",
      [f"a pale dripping hand reaching in through an open ticket window, pushing {TICKET} across the counter, nobody visible outside",
       "close-up of a hand slamming a brown ticket into a brass ticket punching machine"]),
     (None, "punched",
@@ -338,6 +339,13 @@ S = [
       "CARD: end — दस्तक गिन लेना।"]),
 ]
 
+SFX = {
+    "habit": [("khat", "end")], "three-knocks": [("knock3", "start")], "fourth-knock": [("knock4", "end")],
+    "the-sleeper": [("drip", "end")], "phone-rings": [("phone", "start")], "baby-cries": [("knock4", "start"), ("baby", "end")],
+    "open": [("latch", "start")], "khat": [("khat", "end")], "lights-out": [("power-down", "start")],
+    "special-order": [("phone", "start")], "whistle": [("whistle", "start")],
+}
+
 TITLE = "Belghati Halt Ke 7 Rules | Raat 3:33 Ki Train | Hindi Horror Story Animated"
 
 
@@ -360,6 +368,8 @@ def main() -> None:
               "asset": assets[0] if len(assets) == 1 else assets,
               "shots": [{"kind": k.lower(), "prompt": f"{STYLE}. {p}" if k != "Card" else p}
                         for k, p in notes]}
+        if slug in SFX:
+            sc["sfx"] = [list(x) for x in SFX[slug]]
         if ch:
             sc["chapter"] = ch
             md.append(f"\n## {ch}\n")

@@ -10,8 +10,11 @@ Edit the story in `make_story.py`, then `python3 make_story.py` rewrites scenes.
   "RULE N" cards (make_cards.py mixes Noto Serif + Noto Serif Devanagari per run).
 - Voice: Indic Parler-TTS works (HF access granted). Owner wants a heavy, soft voice; testing
   Rohit vs Aman with a casual "telling friends a scary story" description. ~8x realtime on CPU.
-- Stills: 48/122 done (images/). Background tasks cap at 2 h: run the rest in chunks.
-- Script written (owner reviewing). No assets generated, nothing spent.
+- Owner rejected the cartoon look: STYLE is now realistic digital painting at a railway station
+  (old cartoon stills kept in images_cartoon/). Narration no longer *says* ठक/टप/खट — scenes carry
+  an `sfx` list mixed at build time. Voice: Aman. Owner wants ~6 real motion clips at the big
+  scares from their ElevenLabs credits (check one clip's cost first; free plan may be non-commercial).
+- Background tasks cap at 2 h: images run in two chunks (flux_batch.py takes asset paths).
 - 122 FLUX stills + 11 Hindi text cards (`CARD:` shots, rendered locally, never by an image model).
 
 ## Free production path (owner has no card: Modal is out)
