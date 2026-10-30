@@ -13,11 +13,11 @@
     "slate": "#7D7F86"
   },
   "captions": {
-    "burn": false,
-    "y": 930,
-    "size": 52,
+    "burn": true,
+    "y": 945,
+    "size": 50,
     "maxWords": 6,
-    "maxChars": 40,
+    "maxChars": 42,
     "fill": "#FFFFFF",
     "language": "hi",
     "whisperModel": "auto"

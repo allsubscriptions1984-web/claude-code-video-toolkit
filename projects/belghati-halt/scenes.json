@@ -387,6 +387,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a black stray dog sitting at the very edge of the lamp light on a platform, refusing to step into the darkness beyond"
         }
+      ],
+      "sfx": [
+        [
+          "dog-howl",
+          "under"
+        ]
       ]
     },
     {
@@ -651,6 +657,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a crowded old train coach interior at night, families with bundles and sleeping children, a single bulb"
         }
+      ],
+      "sfx": [
+        [
+          "train-arrive",
+          "under"
+        ]
       ]
     },
     {
@@ -708,6 +720,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. the dark flooded river at dawn, the broken bridge pillars, nothing else"
         }
+      ],
+      "sfx": [
+        [
+          "bridge-collapse",
+          "under"
+        ]
       ]
     },
     {
@@ -816,6 +834,12 @@
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a black stray dog howling at the end of a fog-drowned platform toward an unseen gate"
         }
       ],
+      "sfx": [
+        [
+          "dog-howl",
+          "under"
+        ]
+      ],
       "chapter": "Kohre Wali Raat"
     },
     {
@@ -848,7 +872,7 @@
         ],
         [
           "baby",
-          "end"
+          "under"
         ]
       ]
     },
@@ -987,6 +1011,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. an old Indian passenger train with faded maroon coaches, water pouring from the carriages, river weeds hanging from the windows, dim yellow light inside, gliding silently into a dark platform"
         }
+      ],
+      "sfx": [
+        [
+          "ghost-train",
+          "under"
+        ]
       ]
     },
     {
@@ -1068,6 +1098,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a red lantern swinging left and right in thick fog beside a rusted chained railway gate, the holder only a thin shadow"
         }
+      ],
+      "sfx": [
+        [
+          "lantern",
+          "under"
+        ]
       ]
     },
     {
@@ -1137,6 +1173,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a railway signal light high on its post in the fog flickering between red and yellow"
         }
+      ],
+      "sfx": [
+        [
+          "lever",
+          "under"
+        ]
       ]
     },
     {
@@ -1354,6 +1396,12 @@
           "kind": "image",
           "prompt": "dark cinematic horror illustration, realistic digital painting, realistic human faces and proportions, serious and grim tone, muted desaturated palette of sodium orange, sickly green and deep blue-black, deep shadows, volumetric fog, film grain, cinematic 16:9 wide shot, small Indian railway station in a forest, no text, no words, no letters. a huge crowded Indian city railway station in bright daylight, a young Indian railway clerk in a navy blue sweater over a white shirt, seen from behind or in silhouette, face hidden small among the crowd at a ticket counter"
         }
+      ],
+      "sfx": [
+        [
+          "city",
+          "under"
+        ]
       ]
     },
     {

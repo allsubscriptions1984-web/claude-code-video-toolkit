@@ -60,7 +60,7 @@ except ImportError as e:
 
 HERE = Path(__file__).resolve().parent
 TEXT_CACHE = HERE / ".text_cache"
-BUILD_VERSION = "3-belghati"  # bump to invalidate every cached chapter
+BUILD_VERSION = "4-belghati"  # bump to invalidate every cached chapter
 
 CONFIG = json.loads((HERE / "config.json").read_text())
 FMT = CONFIG["format"]
@@ -86,7 +86,12 @@ S = 1.0
 W, H, FPS = FMT["width"], FMT["height"], FMT["fps"]
 
 
-def _load_font(size: int):
+DEVANAGARI_FONT = "/usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf"
+
+
+def _load_font(size: int, text: str = ""):
+    if any("\u0900" <= ch <= "\u097f" for ch in text) and Path(DEVANAGARI_FONT).exists():
+        return ImageFont.truetype(DEVANAGARI_FONT, size, layout_engine=ImageFont.Layout.RAQM)
     for path in _FONT_CANDIDATES.get(platform.system(), []):
         try:
             return ImageFont.truetype(path, size)
@@ -124,7 +129,8 @@ def pill_png(txt: str, size: int, fill: str, alpha: int = 185) -> str:
     if path.exists():
         return str(path)
 
-    font = _load_font(size)
+    txt = txt.replace("—", "-").replace("…", "...")  # not in the Devanagari face
+    font = _load_font(size, txt)
     sw = max(2, size // 16)
     probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     bbox = probe.textbbox((0, 0), txt, font=font, stroke_width=sw)
@@ -239,7 +245,9 @@ def scene_assets(scene: dict) -> list[str]:
 
 SFX_DIR = HERE / "audio" / "sfx"
 SFX_GAIN = {"knock3": 0.9, "knock4": 0.95, "drip": 0.6, "khat": 0.9, "phone": 0.6, "latch": 0.8,
-            "power-down": 0.9, "whistle": 0.55, "baby": 0.7}
+            "power-down": 0.9, "whistle": 0.6, "baby": 0.5, "train-arrive": 0.55,
+            "bridge-collapse": 0.7, "ghost-train": 0.6, "dog-howl": 0.45, "lever": 0.5,
+            "lantern": 0.4, "city": 0.45}
 SCARES = {"knock4", "khat", "power-down", "latch"}  # these also shake + flash the frame
 _SFX_LEN: dict = {}
 
@@ -297,6 +305,9 @@ def build_timeline(scenes: list[dict], durations: dict) -> tuple[list[dict], flo
             for n, w, ln in sfx:
                 if w == "start":
                     s["_sfx"].append((n, at)); at += ln + 0.15
+            for n, w, ln in sfx:
+                if w == "under":
+                    s["_sfx"].append((n, s["_vo_local"]))
             at = s["_vo_local"] + vo + 0.25
             for n, w, ln in sfx:
                 if w == "end":

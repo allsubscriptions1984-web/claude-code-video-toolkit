@@ -341,9 +341,15 @@ S = [
 
 SFX = {
     "habit": [("khat", "end")], "three-knocks": [("knock3", "start")], "fourth-knock": [("knock4", "end")],
-    "the-sleeper": [("drip", "end")], "phone-rings": [("phone", "start")], "baby-cries": [("knock4", "start"), ("baby", "end")],
+    "the-sleeper": [("drip", "end")], "phone-rings": [("phone", "start")],
+    "baby-cries": [("knock4", "start"), ("baby", "under")],
     "open": [("latch", "start")], "khat": [("khat", "end")], "lights-out": [("power-down", "start")],
     "special-order": [("phone", "start")], "whistle": [("whistle", "start")],
+    # real-world beds that play under the narration
+    "kalu": [("dog-howl", "under")], "the-date": [("dog-howl", "under")],
+    "the-story": [("train-arrive", "under")], "the-fall": [("bridge-collapse", "under")],
+    "57-down": [("ghost-train", "under")], "red-lantern": [("lantern", "under")],
+    "struggle": [("lever", "under")], "transfer": [("city", "under")],
 }
 
 TITLE = "Belghati Halt Ke 7 Rules | Raat 3:33 Ki Train | Hindi Horror Story Animated"
